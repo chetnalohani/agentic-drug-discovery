@@ -3,33 +3,34 @@ EGFR - 1M17 DOCKING INTERACTION REPORT
 Compound: poziotinib
 PubChem CID: 25127713
 Docked file: docked_25127713.pdbqt
-Vina best affinity: -9.012 kcal/mol
+Vina best affinity: -9.055 kcal/mol
 
 BINDING-SITE RESIDUES WITHIN 4.0 A
 ------------------------------------------------------------
-HOH A10 - 3.09 A
-THR A830 - 3.17 A
-MET A769 - 3.26 A
-THR A766 - 3.34 A
+HOH A10 - 3.11 A
+THR A830 - 3.19 A
+MET A769 - 3.24 A
+THR A766 - 3.32 A
 LEU A764 - 3.35 A
-GLU A738 - 3.43 A
-ASP A831 - 3.44 A
-LYS A721 - 3.46 A
-ALA A719 - 3.47 A
-MET A742 - 3.52 A
-LEU A694 - 3.57 A
-LEU A820 - 3.59 A
+GLU A738 - 3.41 A
+ASP A831 - 3.43 A
+ALA A719 - 3.45 A
+LYS A721 - 3.48 A
+MET A742 - 3.55 A
+LEU A694 - 3.59 A
+LEU A820 - 3.60 A
 GLY A772 - 3.65 A
-ARG A817 - 3.67 A
-VAL A702 - 3.69 A
-GLN A767 - 3.74 A
-CYS A773 - 3.81 A
+ARG A817 - 3.68 A
+VAL A702 - 3.71 A
+GLN A767 - 3.72 A
+CYS A773 - 3.77 A
+LEU A768 - 4.00 A
 
 CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
 ------------------------------------------------------------
 These are proximity-based interaction candidates.
 They are NOT confirmed hydrogen bonds.
 
-HOH A10 O - ligand N : 3.09 A
-MET A769 N - ligand N : 3.26 A
-MET A769 O - ligand N : 3.47 A
+HOH A10 O - ligand N : 3.11 A
+MET A769 N - ligand N : 3.24 A
+MET A769 O - ligand N : 3.45 A

@@ -38,15 +38,19 @@ OUTPUT_TXT = OUTPUT_DIR / "lead_analysis_report.txt"
 # ============================================================
 
 def find_column(df, possible_names):
-    """
-    Find the first matching column from a list of possible names.
-    """
-
+    """Find the first matching column from a list of possible names."""
     for name in possible_names:
         if name in df.columns:
             return name
-
     return None
+
+
+def safe_float(value, decimals=2):
+    """Convert value to float safely for display."""
+    try:
+        return f"{float(value):.{decimals}f}"
+    except (ValueError, TypeError):
+        return str(value)
 
 
 def main():
@@ -56,33 +60,42 @@ def main():
     print("FINAL LEAD ANALYSIS")
     print("=" * 70)
 
-    # --------------------------------------------------------
-    # Check input file
-    # --------------------------------------------------------
+    # ========================================================
+    # 1. CHECK INPUT FILE
+    # ========================================================
 
     if not FINAL_FILE.exists():
-
         print()
-        print("ERROR: Final ranking file not found.")
+        print("ERROR: Final ranking file not found:")
         print(FINAL_FILE)
         return
 
-    # --------------------------------------------------------
-    # Load final ranking
-    # --------------------------------------------------------
+    # ========================================================
+    # 2. LOAD FINAL RANKING
+    # ========================================================
 
-    df = pd.read_csv(FINAL_FILE)
+    try:
+        df = pd.read_csv(FINAL_FILE)
+    except Exception as error:
+        print()
+        print("ERROR: Could not read final ranking file.")
+        print(error)
+        return
 
     print()
-    print(f"Loaded final ranking:")
+    print("Loaded final ranking:")
     print(FINAL_FILE)
-
     print()
     print(f"Number of compounds: {len(df)}")
 
-    # --------------------------------------------------------
-    # Required columns
-    # --------------------------------------------------------
+    if df.empty:
+        print()
+        print("ERROR: Final ranking file is empty.")
+        return
+
+    # ========================================================
+    # 3. REQUIRED COLUMNS
+    # ========================================================
 
     required_columns = [
         "final_rank",
@@ -102,27 +115,66 @@ def main():
     ]
 
     if missing_columns:
-
         print()
         print("ERROR: Required columns are missing:")
-        print(missing_columns)
+        for column in missing_columns:
+            print(f"  - {column}")
+
+        print()
+        print("Available columns:")
+        for column in df.columns:
+            print(f"  - {column}")
+
         return
 
-    # --------------------------------------------------------
-    # Sort according to existing final ranking
-    # --------------------------------------------------------
+    # ========================================================
+    # 4. CLEAN NUMERIC COLUMNS
+    # ========================================================
 
-    df = df.sort_values(
-        by="final_rank",
-        ascending=True
-    ).reset_index(drop=True)
+    numeric_columns = [
+        "final_rank",
+        "pubchem_cid",
+        "docking_score",
+        "docking_score_normalized",
+        "qed_score",
+        "lipinski_score",
+        "final_score",
+    ]
 
-    # --------------------------------------------------------
-    # Identify ADMET columns
+    for column in numeric_columns:
+        df[column] = pd.to_numeric(
+            df[column],
+            errors="coerce"
+        )
+
+    # Remove rows that do not have a final rank
+    df = df.dropna(
+        subset=["final_rank"]
+    ).copy()
+
+    if df.empty:
+        print()
+        print("ERROR: No valid ranked compounds found.")
+        return
+
+    # ========================================================
+    # 5. SORT BY EXISTING FINAL RANKING
+    # ========================================================
+
+    df = (
+        df.sort_values(
+            by="final_rank",
+            ascending=True
+        )
+        .reset_index(drop=True)
+    )
+
+    # ========================================================
+    # 6. IDENTIFY ADMET COLUMNS
     #
-    # ADMET endpoints are retained individually.
-    # They are NOT converted into one artificial safety score.
-    # --------------------------------------------------------
+    # ADMET endpoints are kept individually.
+    # No artificial safety score is created.
+    # ========================================================
 
     base_columns = {
         "final_rank",
@@ -151,24 +203,21 @@ def main():
         if column not in base_columns
     ]
 
-    # --------------------------------------------------------
-    # Load interaction analysis if available
-    # --------------------------------------------------------
+    # ========================================================
+    # 7. LOAD INTERACTION ANALYSIS
+    # ========================================================
 
     interaction_df = None
 
     if INTERACTION_FILE.exists():
 
         try:
-
             interaction_df = pd.read_csv(
                 INTERACTION_FILE
             )
 
             print()
-            print(
-                "Interaction analysis loaded:"
-            )
+            print("Interaction analysis loaded:")
             print(INTERACTION_FILE)
 
         except Exception as error:
@@ -186,9 +235,9 @@ def main():
             "WARNING: Interaction summary not found."
         )
 
-    # --------------------------------------------------------
-    # Create lead-analysis table
-    # --------------------------------------------------------
+    # ========================================================
+    # 8. CREATE LEAD ANALYSIS TABLE
+    # ========================================================
 
     analysis_columns = [
         "final_rank",
@@ -203,19 +252,18 @@ def main():
 
     lead_df = df[analysis_columns].copy()
 
-    # --------------------------------------------------------
-    # Add ADMET information
-    # --------------------------------------------------------
+    # ========================================================
+    # 9. ADD ADMET INFORMATION
+    # ========================================================
 
     for column in admet_columns:
+        lead_df[column] = df[column].values
 
-        lead_df[column] = df[column]
+    # ========================================================
+    # 10. ADD INTERACTION INFORMATION
+    # ========================================================
 
-    # --------------------------------------------------------
-    # Add interaction information when possible
-    # --------------------------------------------------------
-
-    if interaction_df is not None:
+    if interaction_df is not None and not interaction_df.empty:
 
         interaction_cid = find_column(
             interaction_df,
@@ -227,19 +275,21 @@ def main():
             ],
         )
 
-        main_cid = "pubchem_cid"
-
         if interaction_cid is not None:
 
             interaction_df = interaction_df.copy()
 
+            # Convert both CIDs to strings so that
+            # 25127713 and "25127713" match correctly.
             interaction_df[interaction_cid] = (
                 interaction_df[interaction_cid]
                 .astype(str)
+                .str.strip()
             )
 
-            lead_df[main_cid] = (
-                lead_df[main_cid]
+            lead_df["pubchem_cid"] = (
+                lead_df["pubchem_cid"]
+                .astype("Int64")
                 .astype(str)
             )
 
@@ -249,168 +299,212 @@ def main():
                 if column != interaction_cid
             ]
 
-            interaction_subset = interaction_df[
-                [interaction_cid] + interaction_columns
-            ].copy()
+            if interaction_columns:
 
-            interaction_subset = interaction_subset.rename(
-                columns={
-                    interaction_cid: main_cid
-                }
-            )
+                interaction_subset = interaction_df[
+                    [interaction_cid] + interaction_columns
+                ].copy()
 
-            lead_df = lead_df.merge(
-                interaction_subset,
-                on=main_cid,
-                how="left",
-                suffixes=("", "_interaction"),
-            )
+                interaction_subset = (
+                    interaction_subset
+                    .rename(
+                        columns={
+                            interaction_cid: "pubchem_cid"
+                        }
+                    )
+                )
 
-            print()
-            print(
-                "Interaction information merged successfully."
-            )
+                # Avoid duplicate rows if the interaction file
+                # contains multiple records for one CID.
+                interaction_subset = (
+                    interaction_subset
+                    .drop_duplicates(
+                        subset=["pubchem_cid"]
+                    )
+                )
+
+                lead_df = lead_df.merge(
+                    interaction_subset,
+                    on="pubchem_cid",
+                    how="left",
+                    suffixes=("", "_interaction"),
+                )
+
+                print()
+                print(
+                    "Interaction information merged successfully."
+                )
+
+            else:
+
+                print()
+                print(
+                    "WARNING: Interaction file contains no "
+                    "additional columns."
+                )
 
         else:
 
             print()
             print(
-                "Interaction file has no PubChem CID column."
+                "WARNING: Interaction file has no PubChem CID column."
             )
             print(
-                "Interaction data will remain separate."
+                "Interaction data was not merged."
             )
 
-    # --------------------------------------------------------
-    # Save CSV
-    # --------------------------------------------------------
+    # ========================================================
+    # 11. SAVE CSV
+    # ========================================================
 
     OUTPUT_DIR.mkdir(
         parents=True,
         exist_ok=True
     )
 
-    lead_df.to_csv(
-        OUTPUT_CSV,
-        index=False
-    )
+    try:
 
-    # --------------------------------------------------------
-    # Create human-readable report
-    # --------------------------------------------------------
+        lead_df.to_csv(
+            OUTPUT_CSV,
+            index=False
+        )
+
+    except Exception as error:
+
+        print()
+        print("ERROR: Could not save lead analysis CSV.")
+        print(error)
+        return
+
+    # ========================================================
+    # 12. CREATE HUMAN-READABLE REPORT
+    # ========================================================
 
     top_n = min(5, len(df))
-
     top_df = df.head(top_n)
 
-    with open(
-        OUTPUT_TXT,
-        "w",
-        encoding="utf-8"
-    ) as report:
+    try:
 
-        report.write(
-            "FINAL LEAD ANALYSIS REPORT\n"
-        )
-
-        report.write(
-            "=" * 70 + "\n\n"
-        )
-
-        report.write(
-            "Target: EGFR\n"
-        )
-
-        report.write(
-            f"Total compounds analyzed: {len(df)}\n\n"
-        )
-
-        report.write(
-            "IMPORTANT:\n"
-        )
-
-        report.write(
-            "The final integrated score was retained from the "
-            "existing ranking workflow.\n"
-        )
-
-        report.write(
-            "ADMET endpoints are reported individually and are "
-            "not collapsed into an artificial safety score.\n\n"
-        )
-
-        report.write(
-            "TOP LEAD CANDIDATES\n"
-        )
-
-        report.write(
-            "=" * 70 + "\n\n"
-        )
-
-        for _, row in top_df.iterrows():
+        with open(
+            OUTPUT_TXT,
+            "w",
+            encoding="utf-8"
+        ) as report:
 
             report.write(
-                f"Rank: {row['final_rank']}\n"
+                "FINAL LEAD ANALYSIS REPORT\n"
             )
 
             report.write(
-                f"Compound: {row['compound_name']}\n"
+                "=" * 70 + "\n\n"
             )
 
             report.write(
-                f"PubChem CID: {row['pubchem_cid']}\n"
+                "Target: EGFR\n"
             )
 
             report.write(
-                f"Docking score: "
-                f"{row['docking_score']:.3f} kcal/mol\n"
+                f"Total compounds analyzed: {len(df)}\n\n"
             )
 
             report.write(
-                f"Docking normalized: "
-                f"{row['docking_score_normalized']:.2f}\n"
+                "IMPORTANT:\n"
             )
 
             report.write(
-                f"QED score: "
-                f"{row['qed_score']:.2f}\n"
+                "The final integrated score was retained from the "
+                "existing ranking workflow.\n"
             )
 
             report.write(
-                f"Lipinski score: "
-                f"{row['lipinski_score']:.2f}\n"
+                "ADMET endpoints are reported individually and are "
+                "not collapsed into an artificial safety score.\n\n"
             )
 
             report.write(
-                f"Final integrated score: "
-                f"{row['final_score']:.2f}\n"
+                "TOP LEAD CANDIDATES\n"
             )
 
-            report.write("\n")
+            report.write(
+                "=" * 70 + "\n\n"
+            )
 
-            if admet_columns:
+            for _, row in top_df.iterrows():
 
                 report.write(
-                    "ADMET predictions:\n"
+                    f"Rank: {safe_float(row['final_rank'], 0)}\n"
                 )
 
-                for column in admet_columns:
+                report.write(
+                    f"Compound: {row['compound_name']}\n"
+                )
 
-                    value = row[column]
+                report.write(
+                    f"PubChem CID: {row['pubchem_cid']}\n"
+                )
+
+                report.write(
+                    f"Docking score: "
+                    f"{safe_float(row['docking_score'], 3)} "
+                    f"kcal/mol\n"
+                )
+
+                report.write(
+                    f"Docking normalized: "
+                    f"{safe_float(row['docking_score_normalized'], 2)}\n"
+                )
+
+                report.write(
+                    f"QED score: "
+                    f"{safe_float(row['qed_score'], 2)}\n"
+                )
+
+                report.write(
+                    f"Lipinski score: "
+                    f"{safe_float(row['lipinski_score'], 2)}\n"
+                )
+
+                report.write(
+                    f"Final integrated score: "
+                    f"{safe_float(row['final_score'], 2)}\n"
+                )
+
+                # --------------------------------------------
+                # ADMET
+                # --------------------------------------------
+
+                if admet_columns:
 
                     report.write(
-                        f"  {column}: {value}\n"
+                        "\nADMET predictions:\n"
                     )
 
-                report.write("\n")
+                    for column in admet_columns:
 
-            report.write(
-                "-" * 70 + "\n\n"
-            )
+                        value = row[column]
 
-    # --------------------------------------------------------
-    # Display final summary
-    # --------------------------------------------------------
+                        report.write(
+                            f"  {column}: {value}\n"
+                        )
+
+                report.write(
+                    "\n"
+                )
+
+                report.write(
+                    "-" * 70 + "\n\n"
+                )
+
+    except Exception as error:
+
+        print()
+        print("ERROR: Could not create report.")
+        print(error)
+        return
+
+    # ========================================================
+    # 13. DISPLAY FINAL SUMMARY
+    # ========================================================
 
     print()
     print("=" * 70)
@@ -420,38 +514,40 @@ def main():
     for _, row in top_df.iterrows():
 
         print()
+
         print(
             f"Rank {int(row['final_rank'])}: "
             f"{row['compound_name']}"
         )
 
         print(
-            f"  PubChem CID: {row['pubchem_cid']}"
+            f"  PubChem CID: "
+            f"{row['pubchem_cid']}"
         )
 
         print(
             f"  Docking: "
-            f"{row['docking_score']:.3f} kcal/mol"
+            f"{safe_float(row['docking_score'], 3)} kcal/mol"
         )
 
         print(
             f"  QED: "
-            f"{row['qed_score']:.2f}"
+            f"{safe_float(row['qed_score'], 2)}"
         )
 
         print(
             f"  Lipinski: "
-            f"{row['lipinski_score']:.2f}"
+            f"{safe_float(row['lipinski_score'], 2)}"
         )
 
         print(
             f"  Final score: "
-            f"{row['final_score']:.2f}"
+            f"{safe_float(row['final_score'], 2)}"
         )
 
-    # --------------------------------------------------------
-    # Output paths
-    # --------------------------------------------------------
+    # ========================================================
+    # 14. OUTPUT PATHS
+    # ========================================================
 
     print()
     print("=" * 70)
@@ -465,6 +561,9 @@ def main():
     print()
     print("Report saved to:")
     print(OUTPUT_TXT)
+
+    print()
+    print("Files created successfully.")
 
 
 # ============================================================

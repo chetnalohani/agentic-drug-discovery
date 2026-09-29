@@ -3,34 +3,32 @@ EGFR - 1M17 DOCKING INTERACTION REPORT
 Compound: afatinib
 PubChem CID: 10184653
 Docked file: docked_10184653.pdbqt
-Vina best affinity: -8.138 kcal/mol
+Vina best affinity: -8.346 kcal/mol
 
 BINDING-SITE RESIDUES WITHIN 4.0 A
 ------------------------------------------------------------
-HOH A10 - 2.96 A
-THR A830 - 3.23 A
-THR A766 - 3.25 A
-VAL A702 - 3.27 A
-MET A769 - 3.27 A
-GLU A738 - 3.38 A
-ALA A719 - 3.42 A
-LYS A721 - 3.48 A
-GLY A695 - 3.55 A
-MET A742 - 3.55 A
-LEU A764 - 3.57 A
-LEU A820 - 3.60 A
-GLY A772 - 3.61 A
-LEU A694 - 3.64 A
-GLN A767 - 3.65 A
-CYS A773 - 3.79 A
-PHE A699 - 3.83 A
-ASP A831 - 3.88 A
-PRO A770 - 3.94 A
+HOH A10 - 2.89 A
+THR A830 - 3.17 A
+LEU A694 - 3.21 A
+THR A766 - 3.26 A
+VAL A702 - 3.32 A
+GLU A738 - 3.32 A
+MET A769 - 3.34 A
+MET A742 - 3.40 A
+LEU A820 - 3.49 A
+ALA A719 - 3.55 A
+LYS A721 - 3.56 A
+GLY A695 - 3.57 A
+PHE A699 - 3.61 A
+GLY A772 - 3.64 A
+LEU A764 - 3.67 A
+GLN A767 - 3.69 A
+ASP A831 - 3.73 A
 
 CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
 ------------------------------------------------------------
 These are proximity-based interaction candidates.
 They are NOT confirmed hydrogen bonds.
 
-HOH A10 O - ligand N : 2.96 A
-MET A769 N - ligand N : 3.27 A
+HOH A10 O - ligand N : 2.89 A
+MET A769 N - ligand N : 3.34 A

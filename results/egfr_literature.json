@@ -1,161 +1,158 @@
 [
     {
-        "pmid": "42802838",
-        "title": "Advances of Peptide-Drug Conjugates in the Treatment of Digestive System Tumors.",
+        "pmid": "42807452",
+        "title": "Synthesis, anti-proliferative evaluation, DFT, in silico ADME and molecular modeling studies of novel imidazolones as potential EGFR inhibitors.",
         "authors": [
-            "Yang L",
-            "An M",
-            "Ma J",
-            "Li Y",
-            "Ma Y",
-            "Qin L",
-            "Han Z"
+            "Hekal MH",
+            "Abdel-Megid M",
+            "Salem ME",
+            "Alrashdi S",
+            "Alzahrani AYA",
+            "Abu El-Azm FSM"
         ],
-        "journal": "Drug design, development and therapy",
-        "abstract": "Digestive system tumors, including gastric cancer, hepatocellular carcinoma, pancreatic cancer, and colorectal cancer, represent one of the most prevalent and lethal malignancy groups worldwide, with high incidence and mortality rates. Despite the continuous development of chemotherapy in cancer treatment, this traditional therapy generally suffers from insufficient tumor specificity, drug resistance and limited efficacy. Precise targeting strategies such as antibody-drug conjugates (ADCs) and peptide-drug conjugates (PDCs) combine cell-targeting delivery with potent antitumor activity and have demonstrated therapeutic potential in digestive system tumors. Compared with ADCs, PDCs offer advantages such as lower molecular weight, improved tumor penetration and reduced immunogenicity risk. Preclinical studies suggest that PDCs can enhance tumor-specific drug accumulation and reduce damage to normal tissues, which may compensate for the shortcomings of traditional chemotherapy. In this review, we systematically outline recent progress in PDC research for digestive system tumors, focusing on target selection and PDC design strategies. Representative PDCs targeting integrins, GPC3, EGFR, HER2, transferrin receptor, and VEGFR in digestive system tumors are highlighted. Based on the preclinical findings and early clinical results, we provide insights on future directions for PDC treatment in digestive system tumors.",
+        "journal": "RSC advances",
+        "abstract": "A series of novel bromophenyl-substituted imidazolone derivatives were synthesized from (Z)-4-(2-bromobenzylidene)-2-phenyloxazol-5(4H)-one through reactions with various nitrogen nucleophiles. The antiproliferative activities of the synthesized candidates were evaluated against HepG-2 (liver), MCF-7 (breast), and HCT-116 (colon) human cancer cell lines, together with normal WI-38 fibroblasts. Among the tested candidates, the carboethoxy-substituted imidazolone derivative 5 exhibited the most promising anticancer activity, displaying IC50 values of 9.52, 12.39, and 7.32 µM against HepG-2, MCF-7, and HCT-116 cells, respectively, with a good selectivity index (SI = 7.2), markedly exceeding that of doxorubicin. Compound 2 also demonstrated potent cytotoxicity against HepG2 and MCF-7 cells with favorable selectivity. In silico ADME evaluation demonstrated that the majority of the synthesized derivatives complied with Lipinski's Rule of Five and Veber's guidelines, indicating promising oral bioavailability and favorable pharmacokinetic characteristics. Molecular docking studies against epidermal growth factor receptor tyrosine kinase (EGFR-TK, PDB ID: 6V5N) revealed strong binding affinities for the active derivatives, with imidazolone 5 exhibiting the highest docking score (-8.035 kcal mol-1) and forming key interactions with important residues, including LYS745, ASP855, and ARG841. Frontier molecular orbital and molecular electrostatic potential analyses further supported the observed biological activities by revealing favorable electronic properties and reactive sites. Collectively, these findings identify bromophenyl-substituted imidazolone derivatives, particularly compound 5, as promising anticancer lead candidates, while suggesting EGFR as a plausible molecular target.",
+        "relevance_score": 11
+    },
+    {
+        "pmid": "42806361",
+        "title": "Daraxonrasib and the era of pan-RAS inhibition: mechanisms, clinical advances, and resistance landscapes.",
+        "authors": [
+            "Lou J",
+            "Zhang D"
+        ],
+        "journal": "Experimental hematology & oncology",
+        "abstract": "Activating RAS mutations drive a substantial proportion of human cancers, yet for decades RAS was considered undruggable. The recent development of tri-complex inhibitors (TCIs) such as daraxonrasib (RMC-6236) has transformed the therapeutic landscape by enabling potent, multi-selective targeting of the active, GTP-bound state of multiple RAS isoforms. This review synthesizes preclinical and clinical evidence on daraxonrasib and related RAS(ON) inhibitors across RAS-mutant malignancies, including pancreatic ductal adenocarcinoma, non-small cell lung cancer, colorectal cancer, melanoma, and cholangiocarcinoma. We examine the structural basis of TCI action, pharmacokinetic considerations, and the profound tumor regressions observed in early-phase trials, including the unprecedented overall survival benefit in PDAC. A central focus is the emergence of resistance through diverse mechanisms: acquired mutations in CYPA, RAS, and BRAF that disrupt drug-target complex formation or restore RAS-RAF signaling; adaptive rewiring via mTORC1, STAT3, and cell cycle pathways; and tumor microenvironment-mediated resistance. We further explore rational combination strategies designed to forestall resistance, including vertical MAPK pathway blockade, orthogonal inhibition of EGFR/STAT3, CDK4/6 targeting, and immunotherapy combinations that leverage RAS inhibition-induced immune priming. By integrating structural biology, translational pharmacology, and clinical outcomes, this review provides a comprehensive framework for understanding the promise and challenges of pan-RAS inhibition in precision oncology.",
+        "relevance_score": 9
+    },
+    {
+        "pmid": "42807131",
+        "title": "Secretory carrier membrane protein 3 modulates nuclear ERK1/2 signaling and drug response in triple-negative breast cancer.",
+        "authors": [
+            "Morales-Cabán BM",
+            "Jackson-González M",
+            "Acosta-Pérez FA",
+            "Ortiz-Torres BS",
+            "Suárez-Arroyo IJ"
+        ],
+        "journal": "Frontiers in oncology",
+        "abstract": "Triple-negative breast cancer (TNBC) frequently displays hyperactive mitogen-activated protein kinase (MAPK)/extracellular signal-regulated kinases 1/2 (ERK1/2) signaling but lacks tractable targets to sustain durable pathway inhibition. Identifying modulators that shape ERK1/2 output and influence responses to ERK1/2 inhibitors is therefore needed. The endosomal trafficking protein secretory carrier membrane protein 3 (SCAMP3) is a positive regulator of epidermal growth factor receptor (EGFR) signaling and ERK1/2-dependent phosphoproteomics programs in TNBC. However, the mechanism by which SCAMP3 modulates ERK1/2 signaling and targeted drug response remains unclear. Here, we combined SCAMP3 knockout with pharmacological ERK1/2 inhibition to evaluate SCAMP3's contributions to MAPK signaling, ERK1/2 distribution, cell-cycle control, apoptosis, and in vivo drug response. We found that SCAMP3 expression is upregulated in TNBC models harboring intrinsic MAPK-activating alterations compared with MAPK wild-type breast cancer cells. SCAMP3 knockout reduced RAF-MEK-ERK1/2 signaling, decreased nuclear accumulation of active ERK1/2, arrested the cell cycle, and promoted apoptotic responses. Furthermore, SCAMP3 knockout increased the inhibitory response to the ERK1/2-targeted inhibitor MK-8353 in xenograft models of MAPK wild-type TNBC. This study identifies SCAMP3 as an important modulator of ERK1/2 signaling and supports further investigation of SCAMP3 as a potential therapeutic co-target to improve ERK1/2-directed therapies.",
+        "relevance_score": 8
+    },
+    {
+        "pmid": "42808393",
+        "title": "In Silico Study of Micheliolide Derivatives as Potential Non-Small Cell Lung Cancer Drugs Targeting the Epidermal Growth Factor Receptor.",
+        "authors": [
+            "Halim S",
+            "Harris A",
+            "Nata SCA",
+            "Muchlis AM",
+            "Darmadi -",
+            "Herikurniawan H",
+            "Rumende CM"
+        ],
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "abstract": "To identify Micheliolide-based derivatives with favorable drug-like properties and inhibitory potential against the epidermal growth factor receptor (EGFR) using an integrated in silico approach. Micheliolide derivatives were evaluated for pharmacokinetic and toxicity profiles using SwissADME and ADMET-AI, and anticancer-related activity was predicted using PASS Online. Molecular docking was performed with AutoDock Vina using erlotinib as a reference ligand. The top-ranked compounds were further examined through 50 ns molecular dynamics simulations to assess complex stability. All derivatives fulfilled Lipinski's criteria. Several compounds demonstrated favorable predicted bioavailability and anticancer probability. Docking analysis identified compound 10 as having the strongest binding affinity, followed by compounds 19 and 3, with all three occupying the same EGFR binding pocket as erlotinib. Molecular dynamics simulations showed that compounds 3 and 19 formed more stable complexes, maintaining root-mean-square deviation values of approximately 1-3 Å throughout the trajectory, whereas compound 10 displayed greater fluctuations and reduced stability. Compounds 3 and 19 exhibited the most favorable combination of binding affinity, dynamic stability, and predicted safety profiles, highlighting their potential as lead candidates for further development as EGFR inhibitors in NSCLC.",
         "relevance_score": 6
     },
     {
-        "pmid": "42803585",
-        "title": "Respiratory syncytial virus-induced ADAM17 activity controls maintenance of epithelial barrier integrity and promotes syncytium formation.",
+        "pmid": "42808388",
+        "title": "KRAS and BRAF Hotspot Variants Show Lower Prevalence in Bangladeshi Colorectal Cancer Patients.",
         "authors": [
-            "Meineke R",
-            "Knittler M-C",
-            "Tagore R",
-            "Engling N",
-            "Ludlow M",
-            "Osterhaus ADME",
-            "Rimmelzwaan GF"
+            "Zunnun MS",
+            "Alam MZ",
+            "Rashid SMM",
+            "Rahaman MSAM",
+            "Parvez N",
+            "Sheikh MSH",
+            "Arjuman F",
+            "Ayub M"
         ],
-        "journal": "Journal of virology",
-        "abstract": "Respiratory syncytial virus (RSV) infection causes epithelial injury, barrier disruption, and formation of syncytia in human lung tissue; however, the regulatory host defense mechanisms involved remain poorly defined. ADAM17 is a multifunctional sheddase implicated in inflammatory lung disease and is considered a potential therapeutic target during viral infections. Here, we show that RSV infection induces ADAM17 activity through PKC- and ERK-dependent signaling, increasing surface ADAM17 levels and sheddase activity. Genetic loss or pharmacological inhibition of ADAM17 reduced RSV-induced formation of syncytia, post-entry viral spread, and viral titers. This identifies ADAM17 as a host factor that supports viral dissemination. ADAM17 deficiency simultaneously exacerbated RSV-induced epithelial injury, characterized by loss of intercellular cohesion, impaired barrier function, increased paracellular permeability, and enhanced cytotoxicity. RSV-induced ADAM17 activity promoted the release of multiple epithelial growth factor receptor (EGFR) ligands. Supplementation with recombinant amphiregulin partially restored barrier function in infected ADAM17-deficient cells. Consistent with these functional effects, ADAM17 deficiency was associated with the loss of epithelial differentiation-associated transcriptional programs and increased expression of inflammatory genes. These findings indicate that ADAM17 plays a dual role in RSV infection. It facilitates syncytial viral spread, while preserving epithelial integrity through autocrine EGFR signaling. Thus, ADAM17 activity represents a biological trade-off between viral dissemination and tissue protection, indicating that therapeutic ADAM17 inhibition may reduce viral spread at the cost of aggravating epithelial damage.IMPORTANCEDuring respiratory syncytial virus (RSV) infection, the airway epithelium must maintain barrier integrity while responding to virus-induced syncytium formation and tissue damage. It is poorly understood which host factors balance tissue preservation against viral replication and spread. Here, we demonstrate that the host cellular metalloproteinase ADAM17 is activated upon RSV infection. While RSV-induced ADAM17 activity promotes syncytium formation and viral spread, it concurrently controls the maintenance of epithelial barrier integrity, preserves cell survival, and inhibits hyperinflammatory signaling. By demonstrating that ADAM17 has a dual mode of action controlling both viral propagation and epithelial barrier resilience, this work uncovers a central trade-off: the same host factor exploited by RSV for dissemination is essential for protecting airway tissue. Consequently, targeting ADAM17 for antiviral therapy presents major challenges, as blocking viral spread may compromise vital epithelial defenses.",
-        "relevance_score": 5
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "abstract": "Colorectal cancer (CRC) is the second-leading cause of cancer-related mortality globally, with a rising incidence in Bangladesh. This study aims to identify pathogenic KRAS and BRAF mutations contributing to anti-EGFR resistance in CRC patients. Two sets of primers were used: one was adopted from a published paper, and another was designed using Primer3Plus. They were optimized for specific PCR amplicons of 173 bp and 230 bp from exon 2 of KRAS and exon 15 of BRAF, respectively. Targeted Sanger sequencing was performed to analyze mutations in these amplicons in 46 CRC patient samples. KRAS mutations were detected in 5 samples (10.87%), comprising two G12D, one G12V, and two G13D variants. Notably, no BRAF V600E mutation was identified. These results stand in sharp contrast to global data, where KRAS mutations at these loci occur in approximately 40% of cases and BRAF V600E mutations in about 10%. Such mutations are clinically significant because they confer resistance to anti-EGFR therapy, underscoring the distinct molecular profile observed in this cohort. The lower prevalence of KRAS and BRAF mutations indicates the potential effectiveness of anti-EGFR therapies in Bangladeshi CRC patients than other populations.",
+        "relevance_score": 6
     },
     {
-        "pmid": "42802824",
-        "title": "Dapagliflozin Alone or Combined With Semaglutide: Cardiovascular and Renal Outcomes Among Patients With Type 2 Diabetes Mellitus in a 6-Month Real-World Retrospective Cohort Study in Saudi Arabia.",
+        "pmid": "42808385",
+        "title": "Integrative Network Pharmacology and Experimental Validation of Sesbania grandiflora as a Multi-Targeted Therapeutic Agent Against Oral Squamous Cell Carcinoma (OSCC).",
         "authors": [
-            "Alharajin R",
-            "AlTaweel M",
-            "AlSubaiee M",
-            "Al Makhloof S",
-            "Almusaad A",
-            "Alarfaj A",
-            "AlKhayyal A",
-            "Altharman N",
-            "Alalawi A",
-            "Almannai N"
+            "R RB",
+            "Sukumaran G",
+            "Ramasubramaniam A"
         ],
-        "journal": "Journal of the ASEAN Federation of Endocrine Societies",
-        "abstract": "Type 2 diabetes mellitus (T2DM) is a growing global health concern linked to increased cardiovascular and renal complications. Two emerging therapeutic classes, sodium-glucose cotransporter-2 inhibitors (SGLT2i) and glucagon like peptide-1 receptor agonists (GLP-1 RAs), have shown independent cardiometabolic benefits. However, limited realworld data exist on the comparative impact of combining these therapies versus using SGLT2i alone. To compare the cardiovascular and renal outcomes of dapagliflozin monotherapy versus combination therapy with once-weekly injectable semaglutide among patients with type 2 diabetes mellitus (T2DM). In this retrospective cohort study, 539 adult patients with confirmed type 2 diabetes mellitus (T2DM; baseline HbA1c ≥6.5%) treated at King Abdulaziz Hospital, Al-Ahsa, were followed over six months. Patients received either dapagliflozin alone or in combination with semaglutide. Generalized Estimating Equations (GEE) were used to assess changes in glycemic control, cardiovascular events, lipid profile, and renal function, adjusting for time and sex. Both groups showed significant metabolic improvements over six months. Dapagliflozin monotherapy was associated with greater HbA1c reduction. Combination therapy was associated with higher HDL levels, improved eGFR, and a lower relative risk of heart failure (RR = 0.43, p = 0.04); the reduction in myocardial infarction risk (RR = 0.61, p = 0.13) did not reach statistical significance. No significant difference was observed in stroke risk. Most cardiovascular and renal markers improved modestly. Combination therapy was associated with favorable renal outcomes and a reduction in heart failure risk, despite inferior glycemic control and a non-significant trend toward reduced myocardial infarction risk. These findings suggest potential complementary effects of SGLT2i and GLP-1 RA treatment in high-risk patients. However, due to the retrospective, non-randomized design, causal relationships cannot be inferred, and residual confounding may exist. Prospective trials are warranted to confirm these associations and guide treatment optimization.",
-        "relevance_score": 5
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "abstract": "Oral squamous cell carcinoma (OSCC) remains a significant health burden with limited therapeutic options and high mortality. Sesbania grandiflora, a medicinal plant rich in phytochemicals, has been traditionally used for its medicinal properties and is emerging as a potential anticancer agent. This study aimed to investigate the anticancer mechanisms of S. grandiflora against OSCC using an integrated approach, combining network pharmacology, molecular docking, ADME profiling, and in vitro validation. Network pharmacology was employed to identify hub genes and pathways associated with S. grandiflora bioactives. Molecular docking was performed to evaluate binding interactions of D-glucuronic acid, a major phytoconstituent, with key cancer-related targets. ADME profiling assessed drug-likeness and pharmacokinetic properties. in vitro assays, including MTT, flow cytometry, and Western blotting, were conducted on KB oral cancer cells to validate mechanistic insights. Key hub genes identified included AKT1, BCL2, PIK3CA, MTOR, and CASP8, which were enriched in pathways such as the PI3K-Akt, p53, HIF-1, and EGFR-mediated apoptosis pathways. Molecular docking revealed strong and stable interactions of D-glucuronic acid with target proteins, supporting its multi-targeted activity. ADME analysis indicated favorable pharmacokinetic properties, including high GI absorption, BBB permeability, and minimal CYP450 inhibition. Experimental validation demonstrated significant cytotoxicity (IC₅₀: 250-300 µg/mL), dose-dependent G1-phase cell cycle arrest, downregulation of BCL-2, and upregulation of BAX, confirming the induction of apoptosis. S. grandiflora exerts anticancer effects through modulation of PI3K-AKT-mTOR and apoptotic pathways. D-glucuronic acid emerges as a promising bioactive compound, supporting further in vivo studies and clinical exploration for OSCC management.",
+        "relevance_score": 6
     },
     {
-        "pmid": "42803855",
-        "title": "Risk factors for recurrent urinary tract infection after SGLT2 inhibitor reinitiation in type 2 diabetes.",
+        "pmid": "42807233",
+        "title": "Design, synthesis, and preliminary anticancer evaluation of diphenylpropan-1-one derivatives: in vitro, in vivo and in silico studies.",
         "authors": [
-            "Hsueh YC",
-            "Lin CH",
-            "Liu PH",
-            "Lin YH"
+            "Najmi A",
+            "Alam MS",
+            "Ahsan W",
+            "Zoghebi K",
+            "Mohan S",
+            "Thangavel N",
+            "Taha MME",
+            "Ashafaq M",
+            "Bakht MA",
+            "Meraya A"
         ],
-        "journal": "Endocrine",
-        "abstract": "To determine the risk of recurrent urinary tract infection (UTI) after early reinitiation of sodium-glucose cotransporter-2 inhibitors (SGLT2i) in adults with type 2 diabetes and to identify patient-level factors associated with recurrence. We conducted a retrospective cohort study. Adults with type 2 diabetes who discontinued an SGLT2i after an index UTI and were subsequently restarted were classified by reinitiation timing (early vs delayed). Recurrent UTI was defined as a new, clinically coded episode following reinitiation. Multivariable models assessed associations between recurrence and demographics, comorbidities, glycemic control, renal function, and psychiatric history. Among 316 patients who restarted SGLT2i within 21 days during or after the first UTI episode, recurrent UTI occurred in 43.99% after 14 days post-reinitiation. In the combined cohort (n = 395), early reinitiation (<21 days) showed a trend toward increased recurrence risk compared to delayed reinitiation (≥21 days) in unadjusted Cox regression (HR 1.348; 95% CI 0.948-1.915; p = 0.096) and logistic regression (OR 1.305; 95% CI 0.797-2.139; p = 0.290), though neither reached statistical significance. After adjusting for baseline covariates, the trend persisted (adjusted Cox HR 2.011; 95% CI 0.973-4.158; p = 0.0592). In univariable Cox regression analysis of the combined cohort, female sex (HR 0.649 for males; 95% CI 0.448-0.942), higher HbA1c (HR 1.09 per %; 95% CI 1.004-1.184), and reduced eGFR (HR 0.992 per ml/min/1.73 m²; 95% CI 0.987-0.998) were identified as factors significantly associated with recurrence. In this retrospective cohort of patients whose UTI was clinically coded and treated with antibiotics, recurrence was less frequent among men with preserved renal function and lower HbA1c, suggesting early SGLT2i reinitiation is a reasonable option in this subgroup. No conclusion could be drawn for higher-risk patients. The comparison of early versus delayed reinitiation remained inconclusive: the point estimate favored delayed reinitiation but did not reach significance (adjusted HR 2.011; 95% CI 0.973-4.158). In univariable analysis, female sex, older age, poor glycemic control, and impaired renal function were associated with recurrence. As ascertainment required a coded encounter and an antibiotic prescription, these findings apply only to clinically significant episodes. Randomized trials are needed to define optimal timing.",
-        "relevance_score": 4
+        "journal": "RSC advances",
+        "abstract": "Breast cancer is a leading cause of cancer-associated mortality and morbidity worldwide, and there is a continued need for structurally diverse anticancer agents with improved properties. The present study reports a series of diphenylpropan-1-one (DPP) derivatives (4a-4i), rationally designed around a chalcone framework and synthesized via a three-step reaction sequence. The physicochemical and spectral characterization of the synthesized derivatives was performed using spectral techniques. Their anticancer potential was evaluated through a preliminary in vitro cytotoxicity screening against the MCF-7 mammary cancer cell line, followed by an in vivo efficacy assessment using a DMBA-induced mammary cancer animal model. To explore a possible molecular target, in silico molecular docking was performed against the epidermal growth factor receptor (EGFR) tyrosine kinase domain as an exploratory computational analysis. Amongst the synthesized derivatives, compound 4h demonstrated the most potent cytotoxic effects (IC50 = 1.7 µg mL-1), comparable to the standard drug gefitinib (IC50 = 1.8 µg mL-1). The in vivo studies revealed a significant and dose-dependent decline in cellular proliferation and mammary gland tumor progression, along with histopathological abnormalities upon treatment with compound 4h. Interestingly, the quantitative gene expression analysis demonstrated a significant reduction in the DMBA-induced overexpression of BRCA1, BRCA2, and TP53 in the 4h-treated groups in a dose-dependent manner. Molecular docking studies showed favorable binding of the DPP derivatives within the EGFR active site, with compound 4h exhibiting strong affinity (binding energy = -9.2 kcal mol-1) and favorable predicted interactions in the ATP-binding region of EGFR. Computational ADMET profiling provided additional preliminary predictions of the pharmacokinetic and toxicity properties of compound 4h. The identified DPP derivatives demonstrated encouraging preliminary anticancer potential and may serve as promising lead molecules for future investigations.",
+        "relevance_score": 6
     },
     {
-        "pmid": "42803301",
-        "title": "Kidney function parameters in South African children living with HIV on antiretroviral therapy.",
+        "pmid": "42806904",
+        "title": "A bispecific EGFR × HER3 antibody-drug conjugate for later-line recurrent or metastatic nasopharyngeal carcinoma: insights from BL-B01D1-303.",
         "authors": [
-            "Shen Y",
-            "Huang EY",
-            "Yin O",
-            "Shiau S",
-            "Strehlau R",
-            "Patel F",
-            "Kuhn L",
-            "Lin F",
-            "Arpadi SM"
+            "Zhou H",
+            "Shen J",
+            "Liu J",
+            "Zhang L",
+            "Yang Y"
         ],
-        "journal": "Antiviral therapy",
-        "abstract": "BackgroundWe evaluated longitudinal kidney function in children with perinatally acquired HIV (CWH) compared with HIV-negative controls.MethodsWe analyzed data from an observational study in Johannesburg, South Africa (2013-2018), including 220 CWH on non-tenofovir regimens and 220 controls. Baseline and follow-up visits with blood, urine, and dual-energy X-ray absorptiometry (DXA) were conducted a median of 3.7 years apart. Kidney function was assessed using serum creatinine-based (revised bedside Schwartz equation) and cystatin C-based (univariate CKiD cystatin C equation) estimated glomerular filtration rates (eGFR) and urinary microalbuminuria, proteinuria, and β2-microglobulin. We assessed between-group differences stratified by sex. Multivariable logistic regression was utilized to identify factors associated with microalbuminuria and proteinuria.ResultsAt baseline, mean age was 6.4 years among CWH and 7.0 years among controls. At baseline, the cohort included 220 CWH and 220 controls; 49.1% of CWH and 54.6% of controls were male. Among the 190 CWH and 111 controls who completed follow-up, 48.9% of CWH and 60.3% of controls were male. CWH had lower lean mass, and higher mean creatinine- and cystatin-C based eGFR than controls. Rate of change in eGFR did not differ between CWH and controls during follow-up. An eGFR <90 mL/min/1.73 m2 by cystatin C was observed in 13.3% male CWH vs 25.8% male controls (p=0.025) and 14.5% female CWH vs 25.9% female controls (p=0.049). At follow-up, proteinuria was detected in 20.7% of male CWH vs 7.5% male controls (p=0.030) and 34.4% female CWH vs 36.4% female controls (p=0.85). eGFR was >90 mL/min/1.73m2 in all children with proteinuria. Female sex was associated with higher odds of microalbuminuria (aOR 5.39, 95% CI 1.26-37.25) and proteinuria (aOR 2.59, 95% CI 1.44-4.76).ConclusionsAmong early treated children with perinatally acquired HIV on non-tenofovir regimens, eGFR was higher than in HIV negative controls, while annualized eGFR change and most urine biomarkers were similar by HIV status. However, a substantial proportion of both groups had eGFR below 90 mL/min/1.73 m2 and abnormal urinary markers, and male CWH had a higher prevalence of proteinuria than male controls; these findings suggest that a portion of the population have signs of abnormal kidney function that warrant further investigation and monitoring.",
-        "relevance_score": 4
+        "journal": "Cancer biology & medicine",
+        "abstract": "",
+        "relevance_score": 6
     },
     {
-        "pmid": "42803273",
-        "title": "Effectiveness of Finerenone in Slowing Chronic Kidney Disease Progression After Hospitalization for Heart Failure: A FIDELITY Subgroup Analysis.",
+        "pmid": "42806258",
+        "title": "ASO Author Reflections: Refining Postoperative Management for Stage IA EGFR-Mutated Lung Adenocarcinoma: Toward Risk-Adapted Adjuvant Therapy.",
         "authors": [
-            "Shafi T",
-            "Anker SD",
-            "Pitt B",
-            "Ruilope LM",
-            "Rossing P",
-            "Brinker M",
-            "Rohwedder K",
-            "Scott C",
-            "Farag YMK",
-            "Filippatos G"
+            "Zhang Y",
+            "Liu Z",
+            "Yuan Q",
+            "Qiu Y",
+            "Chen Y",
+            "Zheng Q",
+            "Yan Y",
+            "Huang Y",
+            "Wang J",
+            "Wang H"
         ],
-        "journal": "European journal of heart failure",
-        "abstract": "Finerenone, a nonsteroidal mineralocorticoid receptor antagonist, reduces risk of heart and kidney outcomes in people with chronic kidney disease (CKD) and type 2 diabetes (T2D). Heart failure is the leading cause of hospitalization in patients with CKD. Here we evaluated whether the reduction in estimated glomerular filtration rate (eGFR) decline (CKD progression) with finerenone persists after hospitalization for heart failure (HHF). This post hoc analysis utilized the FIDELITY dataset pooled from the phase 3 FIDELIO-DKD (NCT02540993) and FIGARO-DKD (NCT02545049) trials, comprising adults with CKD and T2D on optimized renin-angiotensin system inhibitor treatment, randomized 1:1 to finerenone or placebo. Participants included experienced HHF between 4 months post randomization and study end. The key outcome was change in chronic eGFR slope (eGFR estimated from serum creatinine) before and after HHF. To avoid confounding from serum creatinine changes preceding and following HHF, eGFR values ±90 (primary analysis), ±120, and ±150 days from HHF were excluded. Baseline characteristics, medications, and mean hospital stay length were generally balanced between treatment groups. For the primary analysis, both the pre-HHF and post-HHF mean change in eGFR declined slower with finerenone versus placebo (between-group difference 2.68 mL/min/1.73 m2/year [95% confidence interval [CI], 0.87 to 4.49] pre-HHF and 0.96 mL/min/1.73 m2/year [95% CI, -0.99 to 2.91] post-HHF). Treatment with finerenone is associated with clinically meaningful attenuation of CKD progression in people with CKD and T2D before HHF, and persists post-HHF, suggesting that maintaining finerenone after HHF may continue to confer benefits in attenuating CKD progression.",
-        "relevance_score": 4
+        "journal": "Annals of surgical oncology",
+        "abstract": "",
+        "relevance_score": 6
     },
     {
-        "pmid": "42804549",
-        "title": "Five-Year Outcomes and Clinicopathological Correlations of Kidney Transplants From Deceased Donors With Diabetes.",
+        "pmid": "42808223",
+        "title": "Identification and validation of a chronic kidney disease prediction model after radical nephrectomy: a multicenter cohort retrospective study.",
         "authors": [
-            "Colella-Santos M",
-            "Pepato PH",
-            "Proença HMS",
-            "Moura LAR",
-            "Medina-Pestana J",
-            "Foresto RD",
-            "Requião-Moura L"
-        ],
-        "journal": "Clinical transplantation",
-        "abstract": "Kidneys from deceased donors with diabetes mellitus are refused because diabetes is considered a marker of lower organ quality. We evaluated 5-year outcomes according to donor-recipient diabetes status and, secondarily, the prognostic value of pre-implantation histopathological findings among accepted diabetic donor kidneys. This retrospective single-center cohort study included adult recipients of deceased-donor kidney transplants performed between 2013 and 2017. Five-year kidney function and death-censored graft survival were compared according to donor diabetes status before and after 1:2 propensity score matching. A secondary exploratory analysis evaluated Banff chronicity parameters in pre-implantation pathology reports. Among 3058 recipients, 244 received kidneys from diabetic donors. These donors were older, more frequently hypertensive, and had higher KDPI than non-diabetic donors. In unadjusted analyses, recipients of diabetic donor kidneys had lower eGFR and death-censored graft survival. After matching, eGFR from years 1 to 5, eGFR slope, and death-censored graft survival no longer differed between groups. Recipient diabetes did not significantly modify the association of donor diabetes with graft survival or longitudinal eGFR, although the D+/R+ subgroup was small (n = 39). Among 164 available pre-implantation biopsy reports, diabetes-related glomerular lesions were uncommon, chronic lesions were predominantly vascular and mild to moderate, and no Banff histological parameter independently predicted eGFR <30 mL/min/1.73 m2 or death-censored graft loss at 5 years. After balancing baseline donor and recipient characteristics, donor diabetes was not associated with significantly lower 5-year kidney function or death-censored graft survival. In the secondary clinicopathological analysis, no individual Banff chronicity parameter independently predicted 5-year outcomes.",
-        "relevance_score": 3
-    },
-    {
-        "pmid": "42803944",
-        "title": "Changes in renal function in patients with chronic kidney disease after ureteroscopy: a systematic review and meta-analysis from EAU endourology.",
-        "authors": [
-            "Talyshinskii A",
-            "Frascheri MF",
-            "Tzelves L",
-            "Skolarikos A",
-            "Geraghty R",
-            "Davis NF",
-            "Somani BK"
-        ],
-        "journal": "Urolithiasis",
-        "abstract": "The impact of ureteroscopy (URS) and retrograde intrarenal surgery (RIRS) on renal function in patients with chronic kidney disease (CKD) remains unclear, particularly given concerns regarding intrarenal pressure and repeated interventions. We performed a systematic review and meta-analysis to evaluate changes in estimated glomerular filtration rate (eGFR) following URS or RIRS in patients with pre-existing CKD. A systematic review and meta-analysis were conducted according to PRISMA guidelines and registered in PROSPERO (2025). Databases were searched in March 2026. Studies reporting pre- and postoperative eGFR in patients with established CKD or cohorts including patients with reduced baseline renal function undergoing standard URS or RIRS were included. A random-effects model (REML with Knapp-Hartung adjustment) was used to calculate pooled mean differences (MD) in eGFR. Seven studies including 742 patients met inclusion criteria. Follow-up ranged from 1 month to over 2 years. The pooled mean difference in eGFR was +2.8 mL/min/1.73 m2 (95% CI -2.8 to +8.4; p = 0.27), indicating no significant overall change in renal function, with substantial heterogeneity (I2 = 89.6%). A greater increase in eGFR was observed in the ureteral stone subgroup (MD +12.26 mL/min/1.73 m2; 95% CI 9.03-15.49); however, this estimate was derived from a single study and should be interpreted cautiously. No study reported progression to dialysis attributable to ureteroscopic intervention. Evidence certainty remains very low, highlighting the need for prospective studies with standardized long-term assessment. Available evidence does not suggest a clinically meaningful deterioration in renal function following URS or RIRS and indicates that renal function may improve in selected patients after relief of obstruction; however, these findings are based on very low-certainty evidence.",
-        "relevance_score": 3
-    },
-    {
-        "pmid": "42803597",
-        "title": "Tirzepatide Initiation in Lithium-Treated Bipolar Disorder: Renal Biomarker Trajectories and Lithium Safety Signals Over 12 Months in a Real-World Cohort.",
-        "authors": [
-            "Rescalli MB",
-            "Fagiolini A",
-            "Carmellini P",
-            "Pinzi M",
-            "Castaldo F",
-            "Cuomo A"
-        ],
-        "journal": "Human psychopharmacology",
-        "abstract": "To assess early renal and lithium-related safety and 12-month renal biomarker trajectories after tirzepatide initiation in lithium-treated adults with bipolar disorder. We retrospectively studied 23 adults at one centre. The principal 12-week renal safety measures were serum creatinine and derived CKD-EPI 2021 creatinine-based eGFR. Secondary outcomes included lithium, electrolytes, gastrointestinal symptoms, acute kidney injury meeting KDIGO creatinine criteria and discontinuation. Twelve-month trajectories and body-surface-area-unindexed eGFR were exploratory. At 12 weeks, creatinine changed by -3 ± 12 μmol/L (p = 0.196), indexed eGFR by +2.6 ± 15.1 mL/min/1.73 m2 (p = 0.259) and lithium by +0.08 ± 0.17 mmol/L (p = 0.030). Among 20 on-treatment completers at 12 months, weight decreased by 17.7 ± 6.0%, creatinine by 12 ± 9 μmol/L, indexed eGFR increased by 13.0 ± 12.1 mL/min/1.73 m2 and unindexed eGFR by 4.5 ± 14.3 mL/min. Two patients had lithium > 1.2 mmol/L; one developed clinician-attributed symptomatic toxicity and discontinued tirzepatide. No acute kidney injury meeting KDIGO creatinine criteria could be confirmed from available records. Co-prescription warrants structured monitoring and sick-day education. Creatinine-based eGFR changes during major weight loss do not establish renal benefit or exclude kidney injury.",
-        "relevance_score": 3
-    },
-    {
-        "pmid": "42802966",
-        "title": "Expression of miR-802 in glaucoma and its diagnostic significance.",
-        "authors": [
+            "Wang X",
             "Zhang T",
-            "Wang Y"
+            "Wang J",
+            "Yan Y",
+            "Wang H",
+            "Song K",
+            "Yu Y",
+            "Zhang Z",
+            "Zou B",
+            "Yao C"
         ],
-        "journal": "Annals of agricultural and environmental medicine : AAEM",
-        "abstract": "Glaucoma ranks as the second leading cause of blindness globally. The key factors leading to glaucoma are increased intraocular pressure and retinal ganglion cell apoptosis. Glaucoma is an irreversible disease that causes blindness in the eye, characterized by progressive optic nerve damage and visual field defects. The expression of miR-802 is abnormal in the plasma of glaucoma patients, but its function and mechanism remain unclear. The aim of the study is to investigate the expression of miR-802 in glaucoma and retinal ganglion cells, and the effect of miR-802 on 661W cells under oxidative stress. The study used RT-qPCR to detect the expression level of miR-802 in 661W cells and glaucoma patients. Receiver operating characteristic curve (ROC) was used to assess the diagnostic value of miR-802 in glaucoma. Cell viability was assessed using the Cell Counting Kit-8 (CCK-8) assay, while cell apoptosis was detected via flow cytometry. In glaucoma patients, miR-802 expression was significantly downregulated and correlated with elevated IOP, reduced RNFL, and increased eGFR. MiR-802 demonstrated exceptional diagnostic value for the onset of glaucoma. In addition, decreased miR-802 expression was a risk factor associated with glaucoma. MiR-802 accelerated the proliferation of 661W cells and slowed down the apoptosis rate. Moreover, miR-802 mimic inhibited H2O2-induced 661W cell apoptosis. Upregulation of miR-802 alleviated oxidative stress-induced damage in 661W cells. miR-802 might be used as a marker for detecting glaucoma.",
+        "journal": "Annals of medicine",
+        "abstract": "Long-term renal function is an important follow-up after radical nephrectomy for renal carcinoma. Predictive models can help identify patients at risk for chronic kidney disease (CKD) progression and enable early intervention. We retrospectively analyzed 649 patients who underwent radical nephrectomy at eight medical centers. The primary cohort from the Affiliated Hospital of Qingdao University comprised 329 patients, randomly divided into training sets (n = 229) and internal validation sets (n = 100) at a 7:3 ratio. An additional 320 patients from seven other centers constituted a multicenter external evaluation cohort. Five machine learning models were developed, including Logistic Regression (LR), Support Vector Machine (SVM), Random Forest (RF), Extreme Gradient Boosting (XGBoost), and Light Gradient Boosting Machine (LightGBM). Model performance was evaluated using the area under the receiver operating characteristic curve (AUC), confusion matrices, and calibration curves. 224 (34.51%) patients experienced postoperative CKD stage progression within three years. LightGBM achieved the highest discriminative performance among the five evaluated algorithms, with an AUC of 0.7508 (95% CI, 0.6399-0.8617) and an accuracy of 0.7200 in the internal validation set, and an AUC of 0.7549 (95% CI, 0.7022-0.8076) and an accuracy of 0.6813 in the external evaluation set. SHAP analysis identified preoperative eGFR, tumor size, post-to-preoperative serum creatinine ratio, preoperative serum creatinine, and age as the five most influential predictors. We developed and externally evaluated machine-learning models for predicting CKD stage progression after radical nephrectomy. Long-term decline in renal function is an important complication that requires urologists' attention and early prevention during follow-up.",
         "relevance_score": 3
     }
 ]

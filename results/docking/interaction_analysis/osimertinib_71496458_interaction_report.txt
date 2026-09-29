@@ -3,36 +3,35 @@ EGFR - 1M17 DOCKING INTERACTION REPORT
 Compound: osimertinib
 PubChem CID: 71496458
 Docked file: docked_71496458.pdbqt
-Vina best affinity: -8.243 kcal/mol
+Vina best affinity: -8.269 kcal/mol
 
 BINDING-SITE RESIDUES WITHIN 4.0 A
 ------------------------------------------------------------
-LYS A721 - 2.81 A
-PHE A699 - 3.04 A
-ARG A817 - 3.29 A
-VAL A702 - 3.31 A
-ASP A831 - 3.35 A
-MET A769 - 3.36 A
-ASP A813 - 3.38 A
+PHE A699 - 2.70 A
+LYS A721 - 3.06 A
+ARG A817 - 3.18 A
+VAL A702 - 3.29 A
 ASN A818 - 3.39 A
-ALA A719 - 3.50 A
-GLY A772 - 3.64 A
-CYS A773 - 3.66 A
-LEU A820 - 3.71 A
+ASP A831 - 3.41 A
+MET A769 - 3.41 A
+ASP A813 - 3.46 A
+CYS A773 - 3.58 A
+ALA A719 - 3.60 A
+LEU A820 - 3.65 A
+GLY A772 - 3.67 A
 HOH A10 - 3.90 A
-LEU A768 - 3.94 A
-THR A830 - 4.00 A
+PRO A853 - 3.99 A
 
 CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
 ------------------------------------------------------------
 These are proximity-based interaction candidates.
 They are NOT confirmed hydrogen bonds.
 
-LYS A721 NZ - ligand O : 3.07 A
-LYS A721 NZ - ligand N : 3.22 A
-ARG A817 O - ligand O : 3.29 A
-ASP A831 OD2 - ligand N : 3.35 A
-ASP A813 OD2 - ligand N : 3.39 A
+LYS A721 NZ - ligand N : 3.06 A
+LYS A721 NZ - ligand O : 3.06 A
+ARG A817 NH1 - ligand N : 3.18 A
+ARG A817 O - ligand O : 3.37 A
 ASN A818 OD1 - ligand O : 3.39 A
-ARG A817 NH1 - ligand N : 3.44 A
-LYS A721 NZ - ligand N : 3.46 A
+ASP A831 OD2 - ligand N : 3.41 A
+ASP A813 OD2 - ligand N : 3.46 A
+ASP A831 OD1 - ligand N : 3.47 A

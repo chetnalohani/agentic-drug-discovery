@@ -3,35 +3,35 @@ EGFR - 1M17 DOCKING INTERACTION REPORT
 Compound: vandetanib
 PubChem CID: 3081361
 Docked file: docked_3081361.pdbqt
-Vina best affinity: -8.362 kcal/mol
+Vina best affinity: -8.366 kcal/mol
 
 BINDING-SITE RESIDUES WITHIN 4.0 A
 ------------------------------------------------------------
-THR A830 - 3.13 A
-MET A769 - 3.25 A
-ASP A831 - 3.33 A
-PHE A771 - 3.38 A
-HOH A10 - 3.38 A
-LEU A820 - 3.45 A
-LEU A694 - 3.46 A
-GLY A772 - 3.53 A
-ASP A776 - 3.54 A
-THR A766 - 3.54 A
-MET A742 - 3.56 A
-VAL A702 - 3.56 A
-LYS A721 - 3.63 A
-CYS A773 - 3.69 A
-LEU A764 - 3.70 A
-TYR A777 - 3.72 A
-ALA A719 - 3.73 A
-LEU A768 - 3.84 A
-GLN A767 - 4.00 A
+MET A769 - 3.17 A
+HOH A10 - 3.31 A
+THR A830 - 3.32 A
+LEU A820 - 3.38 A
+LYS A721 - 3.44 A
+VAL A702 - 3.48 A
+MET A742 - 3.49 A
+ASP A831 - 3.51 A
+ALA A719 - 3.61 A
+LEU A694 - 3.62 A
+GLY A772 - 3.62 A
+LEU A764 - 3.63 A
+PHE A771 - 3.65 A
+THR A766 - 3.65 A
+PRO A770 - 3.82 A
+GLN A767 - 3.85 A
+LEU A768 - 3.89 A
+GLU A738 - 3.91 A
+ASP A776 - 3.99 A
 
 CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
 ------------------------------------------------------------
 These are proximity-based interaction candidates.
 They are NOT confirmed hydrogen bonds.
 
-MET A769 O - ligand N : 3.30 A
-MET A769 N - ligand N : 3.34 A
-HOH A10 O - ligand N : 3.38 A
+MET A769 N - ligand N : 3.17 A
+MET A769 O - ligand N : 3.27 A
+HOH A10 O - ligand N : 3.31 A

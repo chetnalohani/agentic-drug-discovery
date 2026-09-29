@@ -3,32 +3,28 @@ EGFR - 1M17 DOCKING INTERACTION REPORT
 Compound: icotinib
 PubChem CID: 22024915
 Docked file: docked_22024915.pdbqt
-Vina best affinity: -6.156 kcal/mol
+Vina best affinity: -6.123 kcal/mol
 
 BINDING-SITE RESIDUES WITHIN 4.0 A
 ------------------------------------------------------------
-GLU A738 - 3.03 A
-HOH A10 - 3.15 A
-MET A769 - 3.15 A
-THR A830 - 3.25 A
-LYS A721 - 3.34 A
-ASP A831 - 3.42 A
-THR A766 - 3.44 A
-LEU A694 - 3.47 A
-VAL A702 - 3.48 A
-LEU A820 - 3.52 A
-ALA A719 - 3.55 A
-MET A742 - 3.62 A
-GLN A767 - 3.72 A
-GLY A772 - 3.76 A
-PRO A770 - 3.81 A
-LEU A768 - 3.83 A
+VAL A702 - 2.60 A
+LYS A721 - 2.95 A
+PHE A699 - 2.98 A
+MET A769 - 3.26 A
+LEU A820 - 3.29 A
+ASP A831 - 3.38 A
+GLY A772 - 3.53 A
+LEU A694 - 3.55 A
+LEU A768 - 3.79 A
+THR A830 - 3.80 A
+HOH A10 - 3.80 A
 
 CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
 ------------------------------------------------------------
 These are proximity-based interaction candidates.
 They are NOT confirmed hydrogen bonds.
 
-HOH A10 O - ligand N : 3.15 A
-MET A769 N - ligand N : 3.15 A
-MET A769 O - ligand N : 3.44 A
+LYS A721 NZ - ligand N : 2.95 A
+ASP A831 OD2 - ligand N : 3.38 A
+MET A769 O - ligand O : 3.40 A
+ASP A831 OD1 - ligand N : 3.41 A

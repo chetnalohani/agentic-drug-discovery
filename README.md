@@ -2,25 +2,43 @@
 
 An agentic computational drug-discovery pipeline integrating target validation, literature research, compound discovery, drug-likeness filtering, molecular docking, interaction analysis, ADMET prediction, candidate ranking, lead analysis, and visualization.
 
+---
+
 ## Target
 
-- Target: EGFR (Epidermal Growth Factor Receptor)
-- PDB: 1M17
-- Docking software: AutoDock Vina v1.2.7
+- **Target:** EGFR (Epidermal Growth Factor Receptor)
+- **PDB:** 1M17
+- **Docking Software:** AutoDock Vina v1.2.7
+
+---
 
 ## Workflow
 
-Target Validation
-→ Literature Research
-→ Compound Discovery
-→ Lipinski Filtering
-→ Molecular Docking
-→ Interaction Analysis
-→ Candidate Ranking
-→ ADMET Prediction
-→ Final Integrated Ranking
-→ Lead Analysis
-→ Visualization
+The complete computational workflow is:
+
+Target Validation  
+↓  
+Literature Research  
+↓  
+Compound Discovery  
+↓  
+Lipinski Filtering  
+↓  
+Molecular Docking  
+↓  
+Interaction Analysis  
+↓  
+Candidate Ranking  
+↓  
+ADMET Prediction  
+↓  
+Final Integrated Ranking  
+↓  
+Lead Analysis  
+↓  
+Visualization
+
+---
 
 ## Technologies
 
@@ -42,36 +60,32 @@ Target Validation
 - Visual Studio Code
 - Git
 
+---
+
 ## Project Structure
 
 ```text
-agentic - drug - discovery/
-│
-├── agents/
-│   ├── __init__.py
-│   ├── target_validation_agent.py
-│   ├── literature_agent.py
-│   ├── compound_discovery_agent.py
-│   ├── compound_filter_agent.py
-│   ├── docking_agent.py
-│   └── candidate_ranking_agent.py
+agentic-drug-discovery/
 │
 ├── tools/
 │   ├── __init__.py
 │   ├── admet_analysis.py
-│   ├── interaction_analysis.py
 │   ├── final_candidate_ranking.py
-│   ├── lead_analysis.py
-│   └── final_visualization.py
-│
-├── config/
-├── data/
+│   ├── final_visualization.py
+│   ├── interaction_analysis.py
+│   └── lead_analysis.py
 │
 ├── results/
-│   ├── admet/
 │   ├── docking/
+│   │   └── interaction_analysis/
+│   │
 │   └── final/
 │       ├── figures/
+│       │   ├── 01_docking_scores.png
+│       │   ├── 02_final_integrated_scores.png
+│       │   ├── 03_qed_vs_final_score.png
+│       │   └── 04_top_5_candidates.png
+│       │
 │       ├── final_candidate_ranking.csv
 │       ├── lead_analysis.csv
 │       ├── lead_analysis_report.txt
@@ -84,4 +98,5 @@ agentic - drug - discovery/
 ├── main.py
 ├── requirements.txt
 ├── README.md
-└── .env
+├── .env
+└── .gitignore
