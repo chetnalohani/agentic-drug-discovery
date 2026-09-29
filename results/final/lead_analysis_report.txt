@@ -1,0 +1,553 @@
+FINAL LEAD ANALYSIS REPORT
+======================================================================
+
+Target: EGFR
+Total compounds analyzed: 10
+
+IMPORTANT:
+The final integrated score was retained from the existing ranking workflow.
+ADMET endpoints are reported individually and are not collapsed into an artificial safety score.
+
+TOP LEAD CANDIDATES
+======================================================================
+
+Rank: 1
+Compound: poziotinib
+PubChem CID: 25127713
+Docking score: -9.012 kcal/mol
+Docking normalized: 100.00
+QED score: 36.86
+Lipinski score: 100.00
+Final integrated score: 84.21
+
+ADMET predictions:
+  BRENK_alert: 2
+  NIH_alert: 2
+  AMES: 0.16625185
+  BBB_Martins: 0.3012264
+  Bioavailability_Ma: 0.7516987
+  CYP1A2_Veith: 0.2141618
+  CYP2C19_Veith: 0.6405272
+  CYP2C9_Substrate_CarbonMangels: 0.19846316
+  CYP2C9_Veith: 0.7092634
+  CYP2D6_Substrate_CarbonMangels: 0.07450013
+  CYP2D6_Veith: 0.13906853
+  CYP3A4_Substrate_CarbonMangels: 0.6397115
+  CYP3A4_Veith: 0.7857104
+  Carcinogens_Lagunin: 0.11809768
+  ClinTox: 0.2465518
+  DILI: 0.95727795
+  HIA_Hou: 0.9991516
+  NR-AR-LBD: 0.055294685
+  NR-AR: 0.08404646
+  NR-AhR: 0.5668462
+  NR-Aromatase: 0.58502567
+  NR-ER-LBD: 0.11463443
+  NR-ER: 0.24089134
+  NR-PPAR-gamma: 0.15933485
+  PAMPA_NCATS: 0.8319745
+  Pgp_Broccatelli: 0.91179115
+  SR-ARE: 0.80291986
+  SR-ATAD5: 0.3550461
+  SR-HSE: 0.26153523
+  SR-MMP: 0.78816444
+  SR-p53: 0.5577263
+  Skin_Reaction: 0.16602887
+  hERG: 0.7616407
+  Caco2_Wang: -4.761388
+  Clearance_Hepatocyte_AZ: 39.031696
+  Clearance_Microsome_AZ: 61.228996
+  Half_Life_Obach: 100.89241
+  HydrationFreeEnergy_FreeSolv: -13.092569
+  LD50_Zhu: 3.643313
+  Lipophilicity_AstraZeneca: 4.0046644
+  PPBR_AZ: 96.46619
+  Solubility_AqSolDB: -5.55005
+  VDss_Lombardo: 13.507489
+  molecular_weight_drugbank_approved_percentile: 81.40597539543059
+  logP_drugbank_approved_percentile: 91.21265377855887
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 72.46045694200352
+  hydrogen_bond_donors_drugbank_approved_percentile: 36.59050966608085
+  Lipinski_drugbank_approved_percentile: 20.0
+  QED_drugbank_approved_percentile: 29.068541300527244
+  stereo_centers_drugbank_approved_percentile: 22.601054481546576
+  tpsa_drugbank_approved_percentile: 51.77504393673111
+  PAINS_alert_drugbank_approved_percentile: 47.59226713532514
+  BRENK_alert_drugbank_approved_percentile: 87.9261862917399
+  NIH_alert_drugbank_approved_percentile: 95.07908611599298
+  AMES_drugbank_approved_percentile: 40.597539543058
+  BBB_Martins_drugbank_approved_percentile: 19.40246045694201
+  Bioavailability_Ma_drugbank_approved_percentile: 41.01933216168717
+  CYP1A2_Veith_drugbank_approved_percentile: 66.67838312829527
+  CYP2C19_Veith_drugbank_approved_percentile: 90.01757469244289
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 69.20913884007031
+  CYP2C9_Veith_drugbank_approved_percentile: 94.90333919156416
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 39.43760984182777
+  CYP2D6_Veith_drugbank_approved_percentile: 66.18629173989456
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 72.51318101933217
+  CYP3A4_Veith_drugbank_approved_percentile: 90.6854130052724
+  Carcinogens_Lagunin_drugbank_approved_percentile: 36.41476274165203
+  ClinTox_drugbank_approved_percentile: 74.69244288224957
+  DILI_drugbank_approved_percentile: 91.38840070298772
+  HIA_Hou_drugbank_approved_percentile: 57.60984182776802
+  NR-AR-LBD_drugbank_approved_percentile: 84.99121265377856
+  NR-AR_drugbank_approved_percentile: 88.75219683655537
+  NR-AhR_drugbank_approved_percentile: 94.481546572935
+  NR-Aromatase_drugbank_approved_percentile: 98.45342706502636
+  NR-ER-LBD_drugbank_approved_percentile: 88.08435852372584
+  NR-ER_drugbank_approved_percentile: 87.02987697715291
+  NR-PPAR-gamma_drugbank_approved_percentile: 92.5834797891037
+  PAMPA_NCATS_drugbank_approved_percentile: 55.07908611599297
+  Pgp_Broccatelli_drugbank_approved_percentile: 94.23550087873464
+  SR-ARE_drugbank_approved_percentile: 97.01230228471005
+  SR-ATAD5_drugbank_approved_percentile: 97.6449912126538
+  SR-HSE_drugbank_approved_percentile: 94.20035149384888
+  SR-MMP_drugbank_approved_percentile: 96.4499121265378
+  SR-p53_drugbank_approved_percentile: 97.2231985940246
+  Skin_Reaction_drugbank_approved_percentile: 8.541300527240773
+  hERG_drugbank_approved_percentile: 76.06326889279438
+  Caco2_Wang_drugbank_approved_percentile: 62.21441124780317
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 56.13356766256591
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 75.7469244288225
+  Half_Life_Obach_drugbank_approved_percentile: 94.41124780316343
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 47.34622144112478
+  LD50_Zhu_drugbank_approved_percentile: 96.20386643233743
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 95.00878734622144
+  PPBR_AZ_drugbank_approved_percentile: 81.75746924428823
+  Solubility_AqSolDB_drugbank_approved_percentile: 7.732864674868191
+  VDss_Lombardo_drugbank_approved_percentile: 94.481546572935
+
+----------------------------------------------------------------------
+
+Rank: 2
+Compound: pelitinib
+PubChem CID: 6445562
+Docking score: -8.638 kcal/mol
+Docking normalized: 86.90
+QED score: 44.79
+Lipinski score: 100.00
+Final integrated score: 79.65
+
+ADMET predictions:
+  BRENK_alert: 1
+  NIH_alert: 0
+  AMES: 0.5119092
+  BBB_Martins: 0.2993418
+  Bioavailability_Ma: 0.8316628
+  CYP1A2_Veith: 0.19800171
+  CYP2C19_Veith: 0.10746541
+  CYP2C9_Substrate_CarbonMangels: 0.21048231
+  CYP2C9_Veith: 0.19994886
+  CYP2D6_Substrate_CarbonMangels: 0.16730995
+  CYP2D6_Veith: 0.07319556
+  CYP3A4_Substrate_CarbonMangels: 0.6419222
+  CYP3A4_Veith: 0.339441
+  Carcinogens_Lagunin: 0.24671844
+  ClinTox: 0.5117499
+  DILI: 0.95903474
+  HIA_Hou: 0.9755086
+  NR-AR-LBD: 0.16677733
+  NR-AR: 0.09977892
+  NR-AhR: 0.5084445
+  NR-Aromatase: 0.26521268
+  NR-ER-LBD: 0.05753235
+  NR-ER: 0.13077173
+  NR-PPAR-gamma: 0.13967928
+  PAMPA_NCATS: 0.7501039
+  Pgp_Broccatelli: 0.7416196
+  SR-ARE: 0.54220074
+  SR-ATAD5: 0.30991295
+  SR-HSE: 0.10293575
+  SR-MMP: 0.45746365
+  SR-p53: 0.54596174
+  Skin_Reaction: 0.29374582
+  hERG: 0.7629729
+  Caco2_Wang: -4.7030115
+  Clearance_Hepatocyte_AZ: 49.68017
+  Clearance_Microsome_AZ: 50.348183
+  Half_Life_Obach: 100.84086
+  HydrationFreeEnergy_FreeSolv: -13.745321
+  LD50_Zhu: 2.4961305
+  Lipophilicity_AstraZeneca: 3.3146472
+  PPBR_AZ: 95.64855
+  Solubility_AqSolDB: -5.6435556
+  VDss_Lombardo: 12.625326
+  molecular_weight_drugbank_approved_percentile: 78.45342706502637
+  logP_drugbank_approved_percentile: 89.38488576449913
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 72.46045694200352
+  hydrogen_bond_donors_drugbank_approved_percentile: 61.37082601054482
+  Lipinski_drugbank_approved_percentile: 20.0
+  QED_drugbank_approved_percentile: 39.36731107205624
+  stereo_centers_drugbank_approved_percentile: 22.601054481546576
+  tpsa_drugbank_approved_percentile: 61.37082601054482
+  PAINS_alert_drugbank_approved_percentile: 47.59226713532514
+  BRENK_alert_drugbank_approved_percentile: 66.52021089630932
+  NIH_alert_drugbank_approved_percentile: 37.188049209138846
+  AMES_drugbank_approved_percentile: 79.92970123022847
+  BBB_Martins_drugbank_approved_percentile: 19.191564147627417
+  Bioavailability_Ma_drugbank_approved_percentile: 58.45342706502637
+  CYP1A2_Veith_drugbank_approved_percentile: 65.48330404217927
+  CYP2C19_Veith_drugbank_approved_percentile: 52.97012302284711
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 72.26713532513182
+  CYP2C9_Veith_drugbank_approved_percentile: 75.53602811950792
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 63.47978910369069
+  CYP2D6_Veith_drugbank_approved_percentile: 55.11423550087874
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 72.65377855887523
+  CYP3A4_Veith_drugbank_approved_percentile: 76.20386643233743
+  Carcinogens_Lagunin_drugbank_approved_percentile: 67.90861159929702
+  ClinTox_drugbank_approved_percentile: 93.04042179261864
+  DILI_drugbank_approved_percentile: 91.77504393673112
+  HIA_Hou_drugbank_approved_percentile: 34.62214411247803
+  NR-AR-LBD_drugbank_approved_percentile: 92.44288224956064
+  NR-AR_drugbank_approved_percentile: 91.17750439367312
+  NR-AhR_drugbank_approved_percentile: 93.53251318101934
+  NR-Aromatase_drugbank_approved_percentile: 90.43936731107206
+  NR-ER-LBD_drugbank_approved_percentile: 78.38312829525483
+  NR-ER_drugbank_approved_percentile: 69.66608084358525
+  NR-PPAR-gamma_drugbank_approved_percentile: 91.31810193321616
+  PAMPA_NCATS_drugbank_approved_percentile: 47.7328646748682
+  Pgp_Broccatelli_drugbank_approved_percentile: 87.1353251318102
+  SR-ARE_drugbank_approved_percentile: 86.11599297012303
+  SR-ATAD5_drugbank_approved_percentile: 96.76625659050968
+  SR-HSE_drugbank_approved_percentile: 84.25307557117752
+  SR-MMP_drugbank_approved_percentile: 85.86994727592268
+  SR-p53_drugbank_approved_percentile: 96.97715289982426
+  Skin_Reaction_drugbank_approved_percentile: 20.421792618629176
+  hERG_drugbank_approved_percentile: 76.13356766256591
+  Caco2_Wang_drugbank_approved_percentile: 66.50263620386644
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 63.55008787346222
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 68.85764499121267
+  Half_Life_Obach_drugbank_approved_percentile: 94.41124780316343
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 43.16344463971881
+  LD50_Zhu_drugbank_approved_percentile: 53.60281195079087
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 85.27240773286468
+  PPBR_AZ_drugbank_approved_percentile: 79.92970123022847
+  Solubility_AqSolDB_drugbank_approved_percentile: 6.959578207381371
+  VDss_Lombardo_drugbank_approved_percentile: 93.56766256590512
+
+----------------------------------------------------------------------
+
+Rank: 3
+Compound: vandetanib
+PubChem CID: 3081361
+Docking score: -8.362 kcal/mol
+Docking normalized: 77.24
+QED score: 54.15
+Lipinski score: 100.00
+Final integrated score: 77.16
+
+ADMET predictions:
+  BRENK_alert: 0
+  NIH_alert: 0
+  AMES: 0.39445132
+  BBB_Martins: 0.87391406
+  Bioavailability_Ma: 0.9300746
+  CYP1A2_Veith: 0.28653616
+  CYP2C19_Veith: 0.05569812
+  CYP2C9_Substrate_CarbonMangels: 0.13534132
+  CYP2C9_Veith: 0.010926733
+  CYP2D6_Substrate_CarbonMangels: 0.5066209
+  CYP2D6_Veith: 0.32630226
+  CYP3A4_Substrate_CarbonMangels: 0.7305488
+  CYP3A4_Veith: 0.23554547
+  Carcinogens_Lagunin: 0.08241535
+  ClinTox: 0.74822223
+  DILI: 0.7583318
+  HIA_Hou: 0.9995065
+  NR-AR-LBD: 0.03847211
+  NR-AR: 0.06781827
+  NR-AhR: 0.48375782
+  NR-Aromatase: 0.07710255
+  NR-ER-LBD: 0.019716997
+  NR-ER: 0.11558421
+  NR-PPAR-gamma: 0.007265468
+  PAMPA_NCATS: 0.9129718
+  Pgp_Broccatelli: 0.6693984
+  SR-ARE: 0.27946103
+  SR-ATAD5: 0.08690687
+  SR-HSE: 0.016567862
+  SR-MMP: 0.14259247
+  SR-p53: 0.14420746
+  Skin_Reaction: 0.23021647
+  hERG: 0.95094615
+  Caco2_Wang: -4.8086214
+  Clearance_Hepatocyte_AZ: -1.593502
+  Clearance_Microsome_AZ: 1.6992447
+  Half_Life_Obach: 103.60403
+  HydrationFreeEnergy_FreeSolv: -13.147522
+  LD50_Zhu: 3.5058975
+  Lipophilicity_AstraZeneca: 2.8052323
+  PPBR_AZ: 88.32521
+  Solubility_AqSolDB: -4.017236
+  VDss_Lombardo: 20.419226
+  molecular_weight_drugbank_approved_percentile: 79.5079086115993
+  logP_drugbank_approved_percentile: 88.54130052724078
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 72.46045694200352
+  hydrogen_bond_donors_drugbank_approved_percentile: 36.59050966608085
+  Lipinski_drugbank_approved_percentile: 20.0
+  QED_drugbank_approved_percentile: 52.23198594024605
+  stereo_centers_drugbank_approved_percentile: 22.601054481546576
+  tpsa_drugbank_approved_percentile: 38.20738137082601
+  PAINS_alert_drugbank_approved_percentile: 47.59226713532514
+  BRENK_alert_drugbank_approved_percentile: 25.86994727592268
+  NIH_alert_drugbank_approved_percentile: 37.188049209138846
+  AMES_drugbank_approved_percentile: 69.8066783831283
+  BBB_Martins_drugbank_approved_percentile: 64.85061511423551
+  Bioavailability_Ma_drugbank_approved_percentile: 89.9121265377856
+  CYP1A2_Veith_drugbank_approved_percentile: 71.91564147627417
+  CYP2C19_Veith_drugbank_approved_percentile: 41.652021089630935
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 51.28295254833041
+  CYP2C9_Veith_drugbank_approved_percentile: 33.07557117750439
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 87.2407732864675
+  CYP2D6_Veith_drugbank_approved_percentile: 78.5237258347979
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 84.81546572934974
+  CYP3A4_Veith_drugbank_approved_percentile: 70.22847100175747
+  Carcinogens_Lagunin_drugbank_approved_percentile: 25.13181019332162
+  ClinTox_drugbank_approved_percentile: 98.94551845342708
+  DILI_drugbank_approved_percentile: 69.77152899824253
+  HIA_Hou_drugbank_approved_percentile: 61.82776801405976
+  NR-AR-LBD_drugbank_approved_percentile: 79.26186291739896
+  NR-AR_drugbank_approved_percentile: 85.02636203866433
+  NR-AhR_drugbank_approved_percentile: 92.75922671353251
+  NR-Aromatase_drugbank_approved_percentile: 71.21265377855889
+  NR-ER-LBD_drugbank_approved_percentile: 54.1652021089631
+  NR-ER_drugbank_approved_percentile: 64.11247803163445
+  NR-PPAR-gamma_drugbank_approved_percentile: 52.337434094903344
+  PAMPA_NCATS_drugbank_approved_percentile: 68.01405975395431
+  Pgp_Broccatelli_drugbank_approved_percentile: 83.93673110720563
+  SR-ARE_drugbank_approved_percentile: 69.20913884007031
+  SR-ATAD5_drugbank_approved_percentile: 84.11247803163445
+  SR-HSE_drugbank_approved_percentile: 51.24780316344464
+  SR-MMP_drugbank_approved_percentile: 68.96309314586995
+  SR-p53_drugbank_approved_percentile: 79.29701230228471
+  Skin_Reaction_drugbank_approved_percentile: 13.919156414762742
+  hERG_drugbank_approved_percentile: 92.688927943761
+  Caco2_Wang_drugbank_approved_percentile: 58.558875219683664
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 14.270650263620388
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 25.9402460456942
+  Half_Life_Obach_drugbank_approved_percentile: 94.69244288224957
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 47.17047451669596
+  LD50_Zhu_drugbank_approved_percentile: 94.481546572935
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 76.20386643233743
+  PPBR_AZ_drugbank_approved_percentile: 66.78383128295255
+  Solubility_AqSolDB_drugbank_approved_percentile: 32.196836555360285
+  VDss_Lombardo_drugbank_approved_percentile: 98.91036906854131
+
+----------------------------------------------------------------------
+
+Rank: 4
+Compound: gefitinib
+PubChem CID: 123631
+Docking score: -8.320 kcal/mol
+Docking normalized: 75.77
+QED score: 51.79
+Lipinski score: 100.00
+Final integrated score: 75.83
+
+ADMET predictions:
+  BRENK_alert: 1
+  NIH_alert: 0
+  AMES: 0.6036852
+  BBB_Martins: 0.82156813
+  Bioavailability_Ma: 0.8929599
+  CYP1A2_Veith: 0.5472482
+  CYP2C19_Veith: 0.2535428
+  CYP2C9_Substrate_CarbonMangels: 0.13484105
+  CYP2C9_Veith: 0.09337133
+  CYP2D6_Substrate_CarbonMangels: 0.338062
+  CYP2D6_Veith: 0.36450607
+  CYP3A4_Substrate_CarbonMangels: 0.7461642
+  CYP3A4_Veith: 0.8007169
+  Carcinogens_Lagunin: 0.12691677
+  ClinTox: 0.76288986
+  DILI: 0.8895389
+  HIA_Hou: 0.99966115
+  NR-AR-LBD: 0.10215397
+  NR-AR: 0.09998642
+  NR-AhR: 0.8151867
+  NR-Aromatase: 0.28116232
+  NR-ER-LBD: 0.039343692
+  NR-ER: 0.1670548
+  NR-PPAR-gamma: 0.019243682
+  PAMPA_NCATS: 0.9035796
+  Pgp_Broccatelli: 0.81027794
+  SR-ARE: 0.5657277
+  SR-ATAD5: 0.32149753
+  SR-HSE: 0.06886741
+  SR-MMP: 0.24458551
+  SR-p53: 0.3518637
+  Skin_Reaction: 0.19824526
+  hERG: 0.9643568
+  Caco2_Wang: -4.8473387
+  Clearance_Hepatocyte_AZ: 31.3624
+  Clearance_Microsome_AZ: 28.022253
+  Half_Life_Obach: 97.293755
+  HydrationFreeEnergy_FreeSolv: -13.987007
+  LD50_Zhu: 3.070106
+  Lipophilicity_AstraZeneca: 3.2674255
+  PPBR_AZ: 93.224815
+  Solubility_AqSolDB: -4.507791
+  VDss_Lombardo: 19.835766
+  molecular_weight_drugbank_approved_percentile: 75.07908611599298
+  logP_drugbank_approved_percentile: 81.23022847100177
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 79.85940246045695
+  hydrogen_bond_donors_drugbank_approved_percentile: 36.59050966608085
+  Lipinski_drugbank_approved_percentile: 63.44463971880493
+  QED_drugbank_approved_percentile: 48.64674868189808
+  stereo_centers_drugbank_approved_percentile: 22.601054481546576
+  tpsa_drugbank_approved_percentile: 45.57117750439368
+  PAINS_alert_drugbank_approved_percentile: 47.59226713532514
+  BRENK_alert_drugbank_approved_percentile: 66.52021089630932
+  NIH_alert_drugbank_approved_percentile: 37.188049209138846
+  AMES_drugbank_approved_percentile: 86.08084358523726
+  BBB_Martins_drugbank_approved_percentile: 59.68365553602813
+  Bioavailability_Ma_drugbank_approved_percentile: 76.27416520210897
+  CYP1A2_Veith_drugbank_approved_percentile: 82.2847100175747
+  CYP2C19_Veith_drugbank_approved_percentile: 70.15817223198594
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 51.10720562390159
+  CYP2C9_Veith_drugbank_approved_percentile: 64.85061511423551
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 79.36731107205624
+  CYP2D6_Veith_drugbank_approved_percentile: 80.35149384885766
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 86.85413005272409
+  CYP3A4_Veith_drugbank_approved_percentile: 91.35325131810194
+  Carcinogens_Lagunin_drugbank_approved_percentile: 39.05096660808436
+  ClinTox_drugbank_approved_percentile: 99.29701230228471
+  DILI_drugbank_approved_percentile: 81.30052724077329
+  HIA_Hou_drugbank_approved_percentile: 65.4481546572935
+  NR-AR-LBD_drugbank_approved_percentile: 90.05272407732865
+  NR-AR_drugbank_approved_percentile: 91.17750439367312
+  NR-AhR_drugbank_approved_percentile: 98.38312829525483
+  NR-Aromatase_drugbank_approved_percentile: 91.14235500878736
+  NR-ER-LBD_drugbank_approved_percentile: 69.98242530755712
+  NR-ER_drugbank_approved_percentile: 78.84007029876977
+  NR-PPAR-gamma_drugbank_approved_percentile: 67.34622144112478
+  PAMPA_NCATS_drugbank_approved_percentile: 66.0456942003515
+  Pgp_Broccatelli_drugbank_approved_percentile: 89.94727592267137
+  SR-ARE_drugbank_approved_percentile: 87.7328646748682
+  SR-ATAD5_drugbank_approved_percentile: 96.87170474516697
+  SR-HSE_drugbank_approved_percentile: 78.20738137082601
+  SR-MMP_drugbank_approved_percentile: 76.4499121265378
+  SR-p53_drugbank_approved_percentile: 92.4780316344464
+  Skin_Reaction_drugbank_approved_percentile: 11.036906854130054
+  hERG_drugbank_approved_percentile: 95.07908611599298
+  Caco2_Wang_drugbank_approved_percentile: 55.88752196836556
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 49.84182776801406
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 52.44288224956064
+  Half_Life_Obach_drugbank_approved_percentile: 93.88400702987698
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 41.47627416520211
+  LD50_Zhu_drugbank_approved_percentile: 84.92091388400704
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 84.56942003514939
+  PPBR_AZ_drugbank_approved_percentile: 75.04393673110721
+  Solubility_AqSolDB_drugbank_approved_percentile: 22.530755711775047
+  VDss_Lombardo_drugbank_approved_percentile: 98.69947275922672
+
+----------------------------------------------------------------------
+
+Rank: 5
+Compound: canertinib
+PubChem CID: 156414
+Docking score: -8.544 kcal/mol
+Docking normalized: 83.61
+QED score: 34.30
+Lipinski score: 100.00
+Final integrated score: 75.38
+
+ADMET predictions:
+  BRENK_alert: 2
+  NIH_alert: 2
+  AMES: 0.49477792
+  BBB_Martins: 0.40493733
+  Bioavailability_Ma: 0.6579138
+  CYP1A2_Veith: 0.19107041
+  CYP2C19_Veith: 0.24906716
+  CYP2C9_Substrate_CarbonMangels: 0.14655736
+  CYP2C9_Veith: 0.27904075
+  CYP2D6_Substrate_CarbonMangels: 0.12544124
+  CYP2D6_Veith: 0.2924194
+  CYP3A4_Substrate_CarbonMangels: 0.580165
+  CYP3A4_Veith: 0.5534277
+  Carcinogens_Lagunin: 0.231793
+  ClinTox: 0.7593824
+  DILI: 0.91974705
+  HIA_Hou: 0.96179855
+  NR-AR-LBD: 0.28914386
+  NR-AR: 0.13148728
+  NR-AhR: 0.64633
+  NR-Aromatase: 0.521522
+  NR-ER-LBD: 0.121888205
+  NR-ER: 0.24538879
+  NR-PPAR-gamma: 0.15816858
+  PAMPA_NCATS: 0.5463395
+  Pgp_Broccatelli: 0.83436185
+  SR-ARE: 0.74478066
+  SR-ATAD5: 0.5010807
+  SR-HSE: 0.23938508
+  SR-MMP: 0.54023105
+  SR-p53: 0.71067876
+  Skin_Reaction: 0.20895867
+  hERG: 0.90826017
+  Caco2_Wang: -5.02574
+  Clearance_Hepatocyte_AZ: 13.304242
+  Clearance_Microsome_AZ: 15.505312
+  Half_Life_Obach: 112.63635
+  HydrationFreeEnergy_FreeSolv: -16.983616
+  LD50_Zhu: 2.9958916
+  Lipophilicity_AstraZeneca: 3.239357
+  PPBR_AZ: 92.5054
+  Solubility_AqSolDB: -4.681471
+  VDss_Lombardo: 19.987078
+  molecular_weight_drugbank_approved_percentile: 80.77328646748683
+  logP_drugbank_approved_percentile: 82.35500878734622
+  hydrogen_bond_acceptors_drugbank_approved_percentile: 79.85940246045695
+  hydrogen_bond_donors_drugbank_approved_percentile: 61.37082601054482
+  Lipinski_drugbank_approved_percentile: 63.44463971880493
+  QED_drugbank_approved_percentile: 25.4481546572935
+  stereo_centers_drugbank_approved_percentile: 22.601054481546576
+  tpsa_drugbank_approved_percentile: 60.21089630931459
+  PAINS_alert_drugbank_approved_percentile: 47.59226713532514
+  BRENK_alert_drugbank_approved_percentile: 87.9261862917399
+  NIH_alert_drugbank_approved_percentile: 95.07908611599298
+  AMES_drugbank_approved_percentile: 78.55887521968366
+  BBB_Martins_drugbank_approved_percentile: 26.04569420035149
+  Bioavailability_Ma_drugbank_approved_percentile: 27.90861159929701
+  CYP1A2_Veith_drugbank_approved_percentile: 64.74516695957821
+  CYP2C19_Veith_drugbank_approved_percentile: 69.87697715289983
+  CYP2C9_Substrate_CarbonMangels_drugbank_approved_percentile: 54.86818980667839
+  CYP2C9_Veith_drugbank_approved_percentile: 80.03514938488577
+  CYP2D6_Substrate_CarbonMangels_drugbank_approved_percentile: 54.48154657293498
+  CYP2D6_Veith_drugbank_approved_percentile: 76.90685413005274
+  CYP3A4_Substrate_CarbonMangels_drugbank_approved_percentile: 64.92091388400704
+  CYP3A4_Veith_drugbank_approved_percentile: 84.42882249560634
+  Carcinogens_Lagunin_drugbank_approved_percentile: 65.72934973637962
+  ClinTox_drugbank_approved_percentile: 99.2267135325132
+  DILI_drugbank_approved_percentile: 85.62390158172232
+  HIA_Hou_drugbank_approved_percentile: 32.40773286467487
+  NR-AR-LBD_drugbank_approved_percentile: 94.0597539543058
+  NR-AR_drugbank_approved_percentile: 93.04042179261864
+  NR-AhR_drugbank_approved_percentile: 95.99297012302286
+  NR-Aromatase_drugbank_approved_percentile: 97.99648506151144
+  NR-ER-LBD_drugbank_approved_percentile: 88.54130052724078
+  NR-ER_drugbank_approved_percentile: 87.38137082601055
+  NR-PPAR-gamma_drugbank_approved_percentile: 92.51318101933217
+  PAMPA_NCATS_drugbank_approved_percentile: 35.95782073813709
+  Pgp_Broccatelli_drugbank_approved_percentile: 90.93145869947276
+  SR-ARE_drugbank_approved_percentile: 95.28998242530756
+  SR-ATAD5_drugbank_approved_percentile: 99.08611599297014
+  SR-HSE_drugbank_approved_percentile: 93.53251318101934
+  SR-MMP_drugbank_approved_percentile: 89.45518453427066
+  SR-p53_drugbank_approved_percentile: 99.12126537785588
+  Skin_Reaction_drugbank_approved_percentile: 12.16168717047452
+  hERG_drugbank_approved_percentile: 87.5219683655536
+  Caco2_Wang_drugbank_approved_percentile: 43.79613356766257
+  Clearance_Hepatocyte_AZ_drugbank_approved_percentile: 29.490333919156416
+  Clearance_Microsome_AZ_drugbank_approved_percentile: 39.75395430579965
+  Half_Life_Obach_drugbank_approved_percentile: 96.0281195079086
+  HydrationFreeEnergy_FreeSolv_drugbank_approved_percentile: 25.65905096660809
+  LD50_Zhu_drugbank_approved_percentile: 81.792618629174
+  Lipophilicity_AstraZeneca_drugbank_approved_percentile: 83.90158172231986
+  PPBR_AZ_drugbank_approved_percentile: 73.56766256590511
+  Solubility_AqSolDB_drugbank_approved_percentile: 19.191564147627417
+  VDss_Lombardo_drugbank_approved_percentile: 98.84007029876976
+
+----------------------------------------------------------------------
+

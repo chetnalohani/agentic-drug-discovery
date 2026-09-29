@@ -1,0 +1,7 @@
+AQ4–1M17 DOCKING INTERACTION REPORT
+
+Best affinity: -7.672 kcal/mol
+
+Residues within 4.0 A:
+HOH A10: 2.90 A
+MET A769: 3.87 A

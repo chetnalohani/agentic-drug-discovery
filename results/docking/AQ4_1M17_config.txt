@@ -1,0 +1,12 @@
+receptor = .\results\docking\1M17_receptor.pdbqt
+ligand = .\results\docking\AQ4_1M17_best_pose.pdbqt
+center_x = 22.839
+center_y = 6.163
+center_z = 48.007
+size_x = 22
+size_y = 16
+size_z = 16
+exhaustiveness = 16
+num_modes = 10
+out = .\results\docking\AQ4_1M17_redocked.pdbqt
+log = .\results\docking\AQ4_1M17_redocked.log

@@ -1,0 +1,36 @@
+EGFR - 1M17 DOCKING INTERACTION REPORT
+============================================================
+Compound: erlotinib
+PubChem CID: 176870
+Docked file: docked_176870.pdbqt
+Vina best affinity: -7.015 kcal/mol
+
+BINDING-SITE RESIDUES WITHIN 4.0 A
+------------------------------------------------------------
+HOH A10 - 3.01 A
+THR A766 - 3.10 A
+MET A769 - 3.18 A
+LEU A820 - 3.20 A
+LEU A694 - 3.32 A
+ALA A719 - 3.35 A
+THR A830 - 3.37 A
+LYS A721 - 3.39 A
+VAL A702 - 3.61 A
+MET A742 - 3.68 A
+LEU A768 - 3.80 A
+ASP A831 - 3.81 A
+GLY A772 - 3.82 A
+CYS A751 - 3.95 A
+GLU A738 - 3.98 A
+
+CLOSE N/O/S ATOM PAIRS WITHIN 3.5 A
+------------------------------------------------------------
+These are proximity-based interaction candidates.
+They are NOT confirmed hydrogen bonds.
+
+HOH A10 O - ligand O : 3.01 A
+THR A766 OG1 - ligand O : 3.10 A
+THR A766 OG1 - ligand O : 3.19 A
+HOH A10 O - ligand O : 3.29 A
+MET A769 O - ligand O : 3.33 A
+HOH A10 O - ligand O : 3.48 A
