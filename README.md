@@ -1,8 +1,14 @@
 # Agentic Drug Discovery System
 
-An agentic computational drug-discovery pipeline integrating target validation, literature research, compound discovery, drug-likeness filtering, molecular docking, interaction analysis, ADMET prediction, candidate ranking, lead analysis, and visualization.
+An agentic computational drug-discovery pipeline designed to automate target validation, literature research, compound discovery, drug-likeness filtering, molecular docking, interaction analysis, ADMET prediction, candidate ranking, lead analysis, and visualization.
 
----
+## Project Overview
+
+This project integrates multiple computational drug-discovery stages into a single automated workflow.
+
+The pipeline uses EGFR as the target protein and evaluates candidate compounds through sequential computational analysis.
+
+> **Important:** This is a computational drug-discovery project. Docking, ADMET, and ranking results are predictions and require experimental validation before any biological or therapeutic conclusions can be made.
 
 ## Target
 
@@ -10,65 +16,74 @@ An agentic computational drug-discovery pipeline integrating target validation, 
 - **PDB:** 1M17
 - **Docking Software:** AutoDock Vina v1.2.7
 
----
-
 ## Workflow
 
 The complete computational workflow is:
 
-Target Validation  
-↓  
-Literature Research  
-↓  
-Compound Discovery  
-↓  
-Lipinski Filtering  
-↓  
-Molecular Docking  
-↓  
-Interaction Analysis  
-↓  
-Candidate Ranking  
-↓  
-ADMET Prediction  
-↓  
-Final Integrated Ranking  
-↓  
-Lead Analysis  
-↓  
+Target Validation
+↓
+Literature Research
+↓
+Compound Discovery
+↓
+Lipinski Filtering
+↓
+Molecular Docking
+↓
+Interaction Analysis
+↓
+ADMET Prediction
+↓
+Candidate Ranking
+↓
+Final Integrated Ranking
+↓
+Lead Analysis
+↓
 Visualization
 
----
+## Key Features
+
+- Automated target validation
+- Literature research for the selected target
+- Compound discovery using PubChem
+- Drug-likeness filtering using Lipinski's Rule of Five
+- Molecular docking using AutoDock Vina
+- Protein-ligand interaction analysis
+- Computational ADMET prediction
+- Integrated candidate scoring
+- Lead candidate analysis
+- Automated visualization and result generation
 
 ## Technologies
 
-- Python 3.11
+- Python
 - RDKit
 - Meeko
 - ProDy
-- Gemmi
 - AutoDock Vina
 - ADMET-AI
 - Pandas
 - NumPy
 - Matplotlib
-- UCSF ChimeraX
 - PubChem
 - RCSB PDB
 - PubMed / NCBI
-- Anaconda
-- Visual Studio Code
-- Git
-
----
+- UCSF ChimeraX
+- Git / GitHub
 
 ## Project Structure
 
 ```text
 agentic-drug-discovery/
 │
+├── agents/
+│   ├── target_validation_agent.py
+│   ├── literature_agent.py
+│   ├── compound_discovery_agent.py
+│   └── compound_filter_agent.py
+│
 ├── tools/
-│   ├── __init__.py
 │   ├── admet_analysis.py
 │   ├── final_candidate_ranking.py
 │   ├── final_visualization.py
@@ -77,26 +92,17 @@ agentic-drug-discovery/
 │
 ├── results/
 │   ├── docking/
-│   │   └── interaction_analysis/
-│   │
-│   └── final/
-│       ├── figures/
-│       │   ├── 01_docking_scores.png
-│       │   ├── 02_final_integrated_scores.png
-│       │   ├── 03_qed_vs_final_score.png
-│       │   └── 04_top_5_candidates.png
-│       │
-│       ├── final_candidate_ranking.csv
-│       ├── lead_analysis.csv
-│       ├── lead_analysis_report.txt
-│       └── egfr_literature.json
+│   ├── final/
+│   │   ├── figures/
+│   │   ├── final_candidate_ranking.csv
+│   │   ├── lead_analysis.csv
+│   │   └── lead_analysis_report.txt
+│   └── egfr_literature.json
 │
 ├── vina/
-│   └── vina.exe
 │
 ├── 1M17.pdb
 ├── main.py
 ├── requirements.txt
 ├── README.md
-├── .env
 └── .gitignore
