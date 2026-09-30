@@ -1,158 +1,160 @@
 [
     {
-        "pmid": "42807452",
-        "title": "Synthesis, anti-proliferative evaluation, DFT, in silico ADME and molecular modeling studies of novel imidazolones as potential EGFR inhibitors.",
+        "pmid": "42810632",
+        "title": "Targeting the CAF-LPL-STAT3 axis mitigates osimertinib resistance associated with EGFR downregulation.",
         "authors": [
-            "Hekal MH",
-            "Abdel-Megid M",
-            "Salem ME",
-            "Alrashdi S",
-            "Alzahrani AYA",
-            "Abu El-Azm FSM"
+            "Ye F",
+            "Wu J",
+            "Liu D",
+            "Li Y",
+            "Zhu N",
+            "Chen L"
         ],
-        "journal": "RSC advances",
-        "abstract": "A series of novel bromophenyl-substituted imidazolone derivatives were synthesized from (Z)-4-(2-bromobenzylidene)-2-phenyloxazol-5(4H)-one through reactions with various nitrogen nucleophiles. The antiproliferative activities of the synthesized candidates were evaluated against HepG-2 (liver), MCF-7 (breast), and HCT-116 (colon) human cancer cell lines, together with normal WI-38 fibroblasts. Among the tested candidates, the carboethoxy-substituted imidazolone derivative 5 exhibited the most promising anticancer activity, displaying IC50 values of 9.52, 12.39, and 7.32 µM against HepG-2, MCF-7, and HCT-116 cells, respectively, with a good selectivity index (SI = 7.2), markedly exceeding that of doxorubicin. Compound 2 also demonstrated potent cytotoxicity against HepG2 and MCF-7 cells with favorable selectivity. In silico ADME evaluation demonstrated that the majority of the synthesized derivatives complied with Lipinski's Rule of Five and Veber's guidelines, indicating promising oral bioavailability and favorable pharmacokinetic characteristics. Molecular docking studies against epidermal growth factor receptor tyrosine kinase (EGFR-TK, PDB ID: 6V5N) revealed strong binding affinities for the active derivatives, with imidazolone 5 exhibiting the highest docking score (-8.035 kcal mol-1) and forming key interactions with important residues, including LYS745, ASP855, and ARG841. Frontier molecular orbital and molecular electrostatic potential analyses further supported the observed biological activities by revealing favorable electronic properties and reactive sites. Collectively, these findings identify bromophenyl-substituted imidazolone derivatives, particularly compound 5, as promising anticancer lead candidates, while suggesting EGFR as a plausible molecular target.",
+        "journal": "Cellular signalling",
+        "abstract": "Acquired resistance to osimertinib in epidermal growth factor receptor (EGFR)-mutant non-small cell lung cancer (NSCLC) arises from both tumor cell-intrinsic pathways and tumor microenvironmental cues. Cancer-associated fibroblasts (CAFs) are critical stromal components that drive therapeutic resistance, yet the complete molecular and metabolic cascade linking CAFs to EGFR downregulation and osimertinib insensitivity remains unclear. This work aimed to clarify how CAF-derived signals trigger epithelial-to-mesenchymal transition (EMT), lipid metabolic rewiring, and loss of EGFR expression to confer osimertinib resistance. We first performed ATP viability assays on mixed tumor tissues from 6 patients, then adopted a validation cohort of 12 clinical specimens. Flow sorting isolated viable CD45-EpCAM+ tumor cells for osimertinib sensitivity testing, and correlations among tumor cell drug damage, EGFR-positive cell ratio and CAF-enriched stromal fraction were analyzed. Next, cellular mechanism research was carried out: H1975 and PC9 cells were co-cultured with CAFs in a non-contact Transwell system to detect EGFR expression and drug response. We distinguished transcriptional inhibition from mRNA/protein degradation via mRNA stability, protein half-life and EGFR promoter luciferase assays. Quantitative phosphoproteomics, gene interference, ChIP-qPCR and promoter mutation experiments clarified the STAT3-ZEB1 regulatory axis. Secretome proteomics screened CAF-secreted FSTL1, and gene knockdown plus BLT receptor inhibition verified the FSTL1-AKT-LPL-arachidonic acid/LTB4 signaling pathway; exogenous LTB4 treatment was also used to assess its effect on STAT3 mRNA and total protein expression. Finally, in vivo efficacy verification was conducted on tumor xenografts mixed with H1975 cells and CAFs treated with tripchlorolide (T4) combined with osimertinib to evaluate combination anti-tumor activity. Clinical specimen results: In the 12-patient cohort, osimertinib-induced tumor cell damage positively correlated with EGFR positivity and inversely with CAF-enriched stromal fraction. CAF co-culture reduced EGFR expression and osimertinib sensitivity and triggered EMT in H1975/PC9 cells. Further mechanistic exploration revealed the transcriptional regulatory mechanism: CAFs suppressed EGFR promoter activity without altering EGFR mRNA or protein stability. ZEB1 bound the EGFR promoter E-box to silence EGFR, with STAT3 acting upstream of ZEB1. Subsequent assays uncovered the CAF lipid metabolic signaling axis: CAF-derived FSTL1 activated AKT to elevate LPL, boosting arachidonic acid and LTB4. LPL depletion or BLT inhibition blocked STAT3-ZEB1 signaling, while exogenous LTB4 rescued this pathway; LTB4 treatment also increased STAT3 mRNA and total protein abundance, indicating that LTB4 signaling regulates STAT3 expression in addition to its phosphorylation. Finally, the in vivo therapeutic effect was validated: T4 suppressed STAT3 signaling and potentiated osimertinib anti-tumor activity in CAF-bearing xenografts. This study characterizes a CAF-associated stromal-metabolic signaling program in EGFR-mutant NSCLC. The FSTL1-AKT-LPL-LTB4-STAT3-ZEB1 cascade transcriptionally suppresses EGFR expression and induces an EGFR-low tumor-cell state associated with reduced osimertinib sensitivity; LTB4-associated signaling increases both STAT3 phosphorylation and STAT3 expression. Modulating this stromal-metabolic axis may improve osimertinib response, although the therapeutic conclusions remain preclinical.",
+        "relevance_score": 12
+    },
+    {
+        "pmid": "42811483",
+        "title": "Profiling EGFR, c-MET, and B7H3 co-expression to guide next-generation dual-drug conjugate strategies in colorectal cancer.",
+        "authors": [
+            "Yang Y",
+            "Li H",
+            "Xiao S",
+            "Jiao M",
+            "Wu D",
+            "Ao C",
+            "Zhang Y",
+            "Yan S",
+            "Sun S",
+            "Yang C"
+        ],
+        "journal": "The journal of pathology. Clinical research",
+        "abstract": "Epidermal growth factor receptor (EGFR), cellular mesenchymal-epithelial transition factor (c-MET), and B7 homolog 3 (B7H3) are important targets for antibody-based drug development in colorectal cancer (CRC). To overcome the limitations of single-target antibody therapies - such as limited efficacy, widespread resistance, narrow patient populations, and treatment-related toxicities - various bispecific antibodies or antibody-drug conjugate (ADCs) targeting two targets are being extensively validated in clinical settings. A deeper understanding of their expression profiles and co-expression patterns of actionable therapeutic targets may guide more effective treatment strategies. We evaluated the immunohistochemical expression of B7H3, c-MET, and EGFR in a cohort of 193 CRC patients. Among which, B7H3 exhibited the highest positivity rate (80.83%) in CRC tissues, followed by c-MET (77.20%) and EGFR (47.15%). The positive rates of B7H3 showed no significant differences across patient gender, age, TNM stage, differentiation grade, or tumor site. In contrast, the c-MET positivity rate was elevated in patients with stage I-II disease, and the expression of EGFR was significantly higher in female patients than in male patients. Concurrent assessment of the three targets in metastatic lesions revealed that B7H3 expression levels were comparable between primary and metastatic tumors, whereas c-MET expression was significantly higher in primary lesions. Co-expression analysis indicated that the group with the highest patient coverage was the B7H3/c-MET dual-positive group, followed by the B7H3/EGFR, and c-MET/EGFR combinations, and the proportion of patients with at least one positive target exceeded 80%. Finally, mRNA profile from TIMER database reveals that CD276 and MET expression in CRC tumor tissues were higher than those in the majority of normal tissues. Therefore, utilizing B7H3/c-MET combination therapies that integrate intracellular signaling inhibition with immune checkpoint modulation could potentially extend therapeutic benefits to a wider range of CRC patients.",
         "relevance_score": 11
     },
     {
-        "pmid": "42806361",
-        "title": "Daraxonrasib and the era of pan-RAS inhibition: mechanisms, clinical advances, and resistance landscapes.",
+        "pmid": "42811304",
+        "title": "Co-expression of non-signaling CARs enhances EGFRvIII-specific CAR T-cell cytotoxicity against head and neck squamous cell carcinoma.",
         "authors": [
-            "Lou J",
-            "Zhang D"
+            "Grueter K",
+            "Sander N",
+            "Coen L",
+            "Hüsken S",
+            "Kleinfelder E",
+            "Haist C",
+            "Blaeschke F",
+            "Scheckenbach K",
+            "Monzel C",
+            "Hanenberg H"
         ],
-        "journal": "Experimental hematology & oncology",
-        "abstract": "Activating RAS mutations drive a substantial proportion of human cancers, yet for decades RAS was considered undruggable. The recent development of tri-complex inhibitors (TCIs) such as daraxonrasib (RMC-6236) has transformed the therapeutic landscape by enabling potent, multi-selective targeting of the active, GTP-bound state of multiple RAS isoforms. This review synthesizes preclinical and clinical evidence on daraxonrasib and related RAS(ON) inhibitors across RAS-mutant malignancies, including pancreatic ductal adenocarcinoma, non-small cell lung cancer, colorectal cancer, melanoma, and cholangiocarcinoma. We examine the structural basis of TCI action, pharmacokinetic considerations, and the profound tumor regressions observed in early-phase trials, including the unprecedented overall survival benefit in PDAC. A central focus is the emergence of resistance through diverse mechanisms: acquired mutations in CYPA, RAS, and BRAF that disrupt drug-target complex formation or restore RAS-RAF signaling; adaptive rewiring via mTORC1, STAT3, and cell cycle pathways; and tumor microenvironment-mediated resistance. We further explore rational combination strategies designed to forestall resistance, including vertical MAPK pathway blockade, orthogonal inhibition of EGFR/STAT3, CDK4/6 targeting, and immunotherapy combinations that leverage RAS inhibition-induced immune priming. By integrating structural biology, translational pharmacology, and clinical outcomes, this review provides a comprehensive framework for understanding the promise and challenges of pan-RAS inhibition in precision oncology.",
-        "relevance_score": 9
-    },
-    {
-        "pmid": "42807131",
-        "title": "Secretory carrier membrane protein 3 modulates nuclear ERK1/2 signaling and drug response in triple-negative breast cancer.",
-        "authors": [
-            "Morales-Cabán BM",
-            "Jackson-González M",
-            "Acosta-Pérez FA",
-            "Ortiz-Torres BS",
-            "Suárez-Arroyo IJ"
-        ],
-        "journal": "Frontiers in oncology",
-        "abstract": "Triple-negative breast cancer (TNBC) frequently displays hyperactive mitogen-activated protein kinase (MAPK)/extracellular signal-regulated kinases 1/2 (ERK1/2) signaling but lacks tractable targets to sustain durable pathway inhibition. Identifying modulators that shape ERK1/2 output and influence responses to ERK1/2 inhibitors is therefore needed. The endosomal trafficking protein secretory carrier membrane protein 3 (SCAMP3) is a positive regulator of epidermal growth factor receptor (EGFR) signaling and ERK1/2-dependent phosphoproteomics programs in TNBC. However, the mechanism by which SCAMP3 modulates ERK1/2 signaling and targeted drug response remains unclear. Here, we combined SCAMP3 knockout with pharmacological ERK1/2 inhibition to evaluate SCAMP3's contributions to MAPK signaling, ERK1/2 distribution, cell-cycle control, apoptosis, and in vivo drug response. We found that SCAMP3 expression is upregulated in TNBC models harboring intrinsic MAPK-activating alterations compared with MAPK wild-type breast cancer cells. SCAMP3 knockout reduced RAF-MEK-ERK1/2 signaling, decreased nuclear accumulation of active ERK1/2, arrested the cell cycle, and promoted apoptotic responses. Furthermore, SCAMP3 knockout increased the inhibitory response to the ERK1/2-targeted inhibitor MK-8353 in xenograft models of MAPK wild-type TNBC. This study identifies SCAMP3 as an important modulator of ERK1/2 signaling and supports further investigation of SCAMP3 as a potential therapeutic co-target to improve ERK1/2-directed therapies.",
+        "journal": "BMC cancer",
+        "abstract": "Head and neck squamous cell carcinoma (HNSCC) remains difficult to treat due to heterogeneous antigen expression and an immunosuppressive tumor microenvironment. The epidermal growth factor receptor variant III (EGFRvIII) is a tumor-specific splice form with no detectable protein expression in normal tissues. Nevertheless, its low and often heterogeneous expression in HNSCC has limited its utility as target antigen for immunological therapies using chimeric antigen receptor (CAR) T-cells. In contrast, full-length EGFR is frequently overexpressed in HNSCC, but its expression in normal tissues prevents its use as a directly activating CAR target. Thus, we investigated here whether EGFR can instead provide additional target antigen engagement as a non-signaling CAR (nsCAR) for EGFRvIII CARs. The nsCAR was derived from Cetuximab, an EGFR-binding monoclonal antibody whose epitope is retained in EGFRvIII and was co-expressed with different EGFRvIII-specific signaling CAR to investigate whether additional receptor engagement could enhance target-cell recognition and cytotoxicity. Primary human T-cells were engineered to express EGFRvIII-specific CARs alone or in combination with EGFR-directed nsCARs. Functional activity was evaluated using in vitro cytotoxicity assays, time-resolved killing dynamics, and fluorescence microscopy to assess immunological synapse (IS) formation in HNSCC cell lines with defined levels of EGFRvIII expression. EGFRvIII CAR T-cells exhibited clear target antigen density-dependent cytotoxicity. Co-expression of the EGFR nsCAR specifically enhanced tumor cell killing in selected CAR and target antigen combinations, with the strongest effects observed under conditions of limited baseline CAR activity, whereas the nsCAR alone was non-cytotoxic. Fluorescence imaging revealed co-localization of CAR and nsCAR molecules at the T-cell-target-cell contact interface. EGFR nsCAR co-expression can provide a modular strategy to enhance EGFRvIII CAR T-cell cytotoxicity under conditions of limited target antigen availability. These findings provide an in vitro proof of concept for additional target engagement through a non-signaling receptor and warrant further evaluation in more complex preclinical models.",
         "relevance_score": 8
     },
     {
-        "pmid": "42808393",
-        "title": "In Silico Study of Micheliolide Derivatives as Potential Non-Small Cell Lung Cancer Drugs Targeting the Epidermal Growth Factor Receptor.",
+        "pmid": "42810781",
+        "title": "Benzamil-induced cytotoxicity in non-small cell lung cancer is associated with mitochondrial damage, mitochondrial elongation, and altered XIAP signaling.",
         "authors": [
-            "Halim S",
-            "Harris A",
-            "Nata SCA",
-            "Muchlis AM",
-            "Darmadi -",
-            "Herikurniawan H",
-            "Rumende CM"
+            "Chien TC",
+            "Chen JY",
+            "Lo KH",
+            "Fang YW",
+            "Tsai CC",
+            "Liu XC",
+            "Hsu CJ",
+            "Chang JJ",
+            "Lou YS",
+            "Yin YH"
         ],
-        "journal": "Asian Pacific journal of cancer prevention : APJCP",
-        "abstract": "To identify Micheliolide-based derivatives with favorable drug-like properties and inhibitory potential against the epidermal growth factor receptor (EGFR) using an integrated in silico approach. Micheliolide derivatives were evaluated for pharmacokinetic and toxicity profiles using SwissADME and ADMET-AI, and anticancer-related activity was predicted using PASS Online. Molecular docking was performed with AutoDock Vina using erlotinib as a reference ligand. The top-ranked compounds were further examined through 50 ns molecular dynamics simulations to assess complex stability. All derivatives fulfilled Lipinski's criteria. Several compounds demonstrated favorable predicted bioavailability and anticancer probability. Docking analysis identified compound 10 as having the strongest binding affinity, followed by compounds 19 and 3, with all three occupying the same EGFR binding pocket as erlotinib. Molecular dynamics simulations showed that compounds 3 and 19 formed more stable complexes, maintaining root-mean-square deviation values of approximately 1-3 Å throughout the trajectory, whereas compound 10 displayed greater fluctuations and reduced stability. Compounds 3 and 19 exhibited the most favorable combination of binding affinity, dynamic stability, and predicted safety profiles, highlighting their potential as lead candidates for further development as EGFR inhibitors in NSCLC.",
+        "journal": "Journal of pharmacological sciences",
+        "abstract": "Despite newly introduced treatment options, the 5-year survival rate for non-small cell lung cancer (NSCLC) remains below 20%, indicating a remaining need for new treatment strategies. Benzamil (BZ) has demonstrated inhibitory effects on brain tumors and osteosarcoma; however, its effects on NSCLC cells remain unknown. In this study, we investigated the potential anti-cancer effects of BZ in a panel of NSCLC cell lines. Compared to cells with EGFR L858R/T790M double mutations (H1975), BZ induced greater cytotoxicity in EGFR wild-type (A549, H1299, H292) and EGFR ex19del (PC9) cells. Mechanistically, BZ treatment was associated with inhibition of Akt, ERK1/2, and Stat3 signaling and increased mitochondrial damage. It was also associated with reduced Drp1 and Fis1 expression. Moreover, BZ induced release of cytochrome c, Smac/Diablo, and HtrA2/Omi from mitochondria. Additionally, BZ enhanced osimertinib-induced cytotoxicity in EGFR-mutant cells, and it suppressed H1975-derived cancer spheres. These findings support a proposed model in which BZ-induced mitochondrial damage is accompanied by the release of cytochrome c, Smac/Diablo, and HtrA2/Omi. These changes were accompanied by caspase activation and cell line-dependent alterations in XIAP expression, consistent with their potential contribution to apoptosis in NSCLC cells.",
+        "relevance_score": 7
+    },
+    {
+        "pmid": "42810955",
+        "title": "Epidermal Growth Factor Receptor and Tyrosine Kinase Inhibitors: Current and Emerging Strategies in Glioblastoma.",
+        "authors": [
+            "Shao M",
+            "Huntoon K"
+        ],
+        "journal": "Hematology/oncology clinics of North America",
+        "abstract": "Epidermal growth factor receptor (EGFR) is the most frequent alteration in isocitrate dehydrogenase - wild-type glioblastoma and has been considered a promising therapeutic target. Despite extensive investigation, EGFR-targeted therapies have not improved overall survival because of limited central nervous system drug delivery, tumor heterogeneity, adaptive resistance, and an evolving tumor microenvironment. This review summarizes the molecular biology of EGFR, clinical experience with EGFR-targeted therapies, mechanisms underlying therapeutic resistance, and emerging strategies that may improve future clinical outcomes.",
         "relevance_score": 6
     },
     {
-        "pmid": "42808388",
-        "title": "KRAS and BRAF Hotspot Variants Show Lower Prevalence in Bangladeshi Colorectal Cancer Patients.",
+        "pmid": "42809935",
+        "title": "Distinct genomic landscape of non-small cell lung cancer in Bangladeshi patients: Implications for precision oncology in a resource-limited setting.",
         "authors": [
-            "Zunnun MS",
-            "Alam MZ",
-            "Rashid SMM",
-            "Rahaman MSAM",
-            "Parvez N",
-            "Sheikh MSH",
-            "Arjuman F",
-            "Ayub M"
+            "Al Amin M",
+            "Das M",
+            "Nath PK",
+            "Noman ASM",
+            "Parial R"
         ],
-        "journal": "Asian Pacific journal of cancer prevention : APJCP",
-        "abstract": "Colorectal cancer (CRC) is the second-leading cause of cancer-related mortality globally, with a rising incidence in Bangladesh. This study aims to identify pathogenic KRAS and BRAF mutations contributing to anti-EGFR resistance in CRC patients. Two sets of primers were used: one was adopted from a published paper, and another was designed using Primer3Plus. They were optimized for specific PCR amplicons of 173 bp and 230 bp from exon 2 of KRAS and exon 15 of BRAF, respectively. Targeted Sanger sequencing was performed to analyze mutations in these amplicons in 46 CRC patient samples. KRAS mutations were detected in 5 samples (10.87%), comprising two G12D, one G12V, and two G13D variants. Notably, no BRAF V600E mutation was identified. These results stand in sharp contrast to global data, where KRAS mutations at these loci occur in approximately 40% of cases and BRAF V600E mutations in about 10%. Such mutations are clinically significant because they confer resistance to anti-EGFR therapy, underscoring the distinct molecular profile observed in this cohort. The lower prevalence of KRAS and BRAF mutations indicates the potential effectiveness of anti-EGFR therapies in Bangladeshi CRC patients than other populations.",
+        "journal": "Translational oncology",
+        "abstract": "Non-small cell lung cancer (NSCLC) is a genetically heterogeneous disease with clinically actionable mutations. Analysis of circulating tumor DNA (ctDNA) in plasma using next-generation sequencing (NGS) provides a minimally invasive method for profiling tumor-associated genomic alterations. However, the ctDNA mutational landscapes of Bangladeshi NSCLC patients remain scarce. We enrolled 106 patients with NSCLC and performed targeted NGS of ctDNA, covering a panel of key genes, including EGFR, TP53, KRAS, ERBB2, BRAF, MET, NRAS, PIK3CA, ALK,MAP2K1, and ROS1. Mutations were detected in 85.8% of patients, with TP53, EGFR, and KRAS being the most frequently altered genes. Single gene mutations predominated in females, whereas males exhibited higher rates of multiple concurrent mutations, and KRAS mutations were significantly associated with males. Pathogenic variant c.2155G>A of EGFR was most frequent in the 50-70-year group. The TP53 pathogenic variant c.580G>A was found in 14 patients, and 11 patients showed pathogenic variant c.35G>A in KRAS. The highest number of pathogenic mutations was found in EGFR, followed by TP53, KRAS, ERBB2, BRAF, NRAS, MET, and PIK3CA. No mutation was found in ROS1. Prevalence of EGFR mutations aligns with that in other Asian populations, while frequencies of TP53 and KRAS mutations are consistent with global datasets. The high prevalence of EGFR and TP53 alterations underscores the importance of molecular testing to guide targeted therapy. This is the first comprehensive ctDNA-based genomic landscape for NSCLC in Bangladesh and supports the integration of liquid biopsy into precision oncology strategies in resource-limited settings.",
         "relevance_score": 6
     },
     {
-        "pmid": "42808385",
-        "title": "Integrative Network Pharmacology and Experimental Validation of Sesbania grandiflora as a Multi-Targeted Therapeutic Agent Against Oral Squamous Cell Carcinoma (OSCC).",
+        "pmid": "42810376",
+        "title": "Short-course prophylaxis with the Toronto HCV protocol for recipients of non-liver solid organ transplants from donors with hepatitis C viraemia: a retrospective, matched cohort study.",
         "authors": [
-            "R RB",
-            "Sukumaran G",
-            "Ramasubramaniam A"
+            "Aleyadeh W",
+            "Cypel M",
+            "Kim SJ",
+            "McDonald MA",
+            "Schiff J",
+            "Alba AC",
+            "Keshavjee S",
+            "Yacht K",
+            "Munyal D",
+            "Allan R"
         ],
-        "journal": "Asian Pacific journal of cancer prevention : APJCP",
-        "abstract": "Oral squamous cell carcinoma (OSCC) remains a significant health burden with limited therapeutic options and high mortality. Sesbania grandiflora, a medicinal plant rich in phytochemicals, has been traditionally used for its medicinal properties and is emerging as a potential anticancer agent. This study aimed to investigate the anticancer mechanisms of S. grandiflora against OSCC using an integrated approach, combining network pharmacology, molecular docking, ADME profiling, and in vitro validation. Network pharmacology was employed to identify hub genes and pathways associated with S. grandiflora bioactives. Molecular docking was performed to evaluate binding interactions of D-glucuronic acid, a major phytoconstituent, with key cancer-related targets. ADME profiling assessed drug-likeness and pharmacokinetic properties. in vitro assays, including MTT, flow cytometry, and Western blotting, were conducted on KB oral cancer cells to validate mechanistic insights. Key hub genes identified included AKT1, BCL2, PIK3CA, MTOR, and CASP8, which were enriched in pathways such as the PI3K-Akt, p53, HIF-1, and EGFR-mediated apoptosis pathways. Molecular docking revealed strong and stable interactions of D-glucuronic acid with target proteins, supporting its multi-targeted activity. ADME analysis indicated favorable pharmacokinetic properties, including high GI absorption, BBB permeability, and minimal CYP450 inhibition. Experimental validation demonstrated significant cytotoxicity (IC₅₀: 250-300 µg/mL), dose-dependent G1-phase cell cycle arrest, downregulation of BCL-2, and upregulation of BAX, confirming the induction of apoptosis. S. grandiflora exerts anticancer effects through modulation of PI3K-AKT-mTOR and apoptotic pathways. D-glucuronic acid emerges as a promising bioactive compound, supporting further in vivo studies and clinical exploration for OSCC management.",
-        "relevance_score": 6
+        "journal": "The lancet. Gastroenterology & hepatology",
+        "abstract": "Organs from donors positive for hepatitis C virus (HCV) nucleic acid testing (NAT-positive) expand the non-liver solid organ donor pool. Standard post-transplantation direct-acting antiviral therapy requires an 8-12-week course, which might add logistical, financial, and pharmacological complexity. We therefore aimed to evaluate long-term follow-up from an initial pilot trial and outcomes after adoption of the short-course Toronto HCV protocol as the institutional standard of care in HCV-negative recipients of organs from HCV viraemic donors. This retrospective, matched cohort study was conducted at a single transplant centre at Toronto General Hospital (Toronto, ON, Canada). Eligible patients were HCV NAT-negative recipients (aged ≥18 years) who received kidney, kidney-pancreas, pancreas, heart, or lung transplants from an HCV NAT-positive donor (aged <70 years). Recipients were categorised into the initial cohort (received treatment during the initial pilot study; n=30) and standard of care cohort (received treatment after institutional adoption of the Toronto HCV protocol on Jan 9, 2020; n=86). The Toronto HCV protocol consists of oral glecaprevir 300 mg/day and pibrentasvir 120 mg/day and oral ezetimibe 10 mg/day for 8 days. The first dose is administered 6-12 h before transplantation for 8 days (one pretransplantation dose and seven post-transplantation doses). Data were abstracted from electronic medical records. Each donor-positive, recipient-negative (D+R-) recipient of kidney, lung, and heart transplants was matched with up to four donor-negative, recipient-negative (D-R-) controls based on organ type, sex, age, transplantation date, and primary disease. The primary outcome was undetectable HCV RNA at 12 weeks post-transplantation or at the latest documented assessment for recipients who died before that timepoint. Secondary outcomes were 2-year overall survival, graft function at 1 year (mean estimated glomerular filtration rate [eGFR], mean forced expiratory volume in 1 s [FEV]1, and left ventricular ejection fraction <40%), and safety. Survival was compared between D+R- recipients and matched D-R- controls separately for each organ type using a Cox proportional hazards regression model stratified by matched set. Between Feb 4, 2019, and Dec 31, 2024, 116 D+R- non-liver solid organ transplantations were performed using organs from 72 unique HCV NAT-positive donors: 56 (48%) kidney, 34 (29%) lung, 16 (14%) heart, six (5%) kidney-pancreas, and four (3%) pancreas transplants. The mean recipient age was 54·6 years (SD 14·4). 79 (68%) recipients were male and 37 (32%) were female. The matched D-R- cohort consisted of 168 kidney, 103 lung, and 16 heart transplant recipients (matching was not done for other organs due to small numbers). All 116 (100%) D+R- recipients met the primary endpoint; 114 (98%) recipients had documented undetectable HCV RNA at 12 weeks post-transplantation and two (2%) recipients who died before 12 weeks had undetectable HCV RNA at the latest assessment before death. 25 (22%) deaths occurred during a median follow-up of 140 weeks (IQR 46-212). 2-year overall survival was 83·9% (95% CI 74·6-90·0) among the 106 kidney, lung, and heart recipients; no deaths occurred among the ten pancreas or kidney-pancreas recipients. Within each organ group, there was no difference in 2-year overall survival between D+R- and D-R- recipients for kidney (93·5% [95% CI 81·1-97·9] vs 94·8% [89·8-97·4]; hazard ratio [HR] 1·50 [95% CI 0·38-6·00], p=0·57), lung (70·6% [50·9-83·5] vs 78·7% [68·8-85·7]; HR 1·62 [0·70-3·73], p=0·26), or heart (81·3% [52·5-93·5] vs 81·3% [52·5-93·5]; HR 3·00 [0·31-28·84], p=0·34) transplants. Graft function at 1 year was similar between D+R- and D-R- recipients (mean eGFR 63·9 mL/min per 1·73m2 [SD 22·2] vs 57·4 mL/min per 1·73m2 [20·9], p=0·24; mean FEV1 2·18 L [SD 0·87] vs 2·29 L [0·85], p=0·59; and left ventricular ejection fraction <40% in one [6%] vs three [19%], p=0·60). No HCV-related complications were reported and there were no treatment-related deaths, treatment discontinuations, dose modifications, or clinically significant drug-drug interactions. One (1%) grade 3 elevation in alanine aminotransferase in a kidney recipient was deemed possibly related to treatment. Laboratory tests for cause of liver injury in this patient were unrevealing and liver biopsy showed non-specific acute hepatitis with moderate steatosis and no fibrosis. The Toronto HCV protocol prevented or rapidly cleared HCV infection in D+R- recipients of non-liver solid organ transplants, with no difference in overall survival versus matched D-R- controls. This short-course approach offers a practical, lower cost alternative to standard post-transplantation antiviral regimens and supports routine use of organs from donors with HCV viraemia. None.",
+        "relevance_score": 5
     },
     {
-        "pmid": "42807233",
-        "title": "Design, synthesis, and preliminary anticancer evaluation of diphenylpropan-1-one derivatives: in vitro, in vivo and in silico studies.",
+        "pmid": "42812104",
+        "title": "The Potential Mechanism of Dihydroartemisinin in the Treatment of Thyroid Cancer Through Network Pharmacological Analysis.",
         "authors": [
-            "Najmi A",
-            "Alam MS",
-            "Ahsan W",
-            "Zoghebi K",
-            "Mohan S",
-            "Thangavel N",
-            "Taha MME",
-            "Ashafaq M",
-            "Bakht MA",
-            "Meraya A"
+            "Xie X",
+            "Miao J",
+            "Deng J",
+            "Zheng B",
+            "Zhong L",
+            "Ning L",
+            "Sun J"
         ],
-        "journal": "RSC advances",
-        "abstract": "Breast cancer is a leading cause of cancer-associated mortality and morbidity worldwide, and there is a continued need for structurally diverse anticancer agents with improved properties. The present study reports a series of diphenylpropan-1-one (DPP) derivatives (4a-4i), rationally designed around a chalcone framework and synthesized via a three-step reaction sequence. The physicochemical and spectral characterization of the synthesized derivatives was performed using spectral techniques. Their anticancer potential was evaluated through a preliminary in vitro cytotoxicity screening against the MCF-7 mammary cancer cell line, followed by an in vivo efficacy assessment using a DMBA-induced mammary cancer animal model. To explore a possible molecular target, in silico molecular docking was performed against the epidermal growth factor receptor (EGFR) tyrosine kinase domain as an exploratory computational analysis. Amongst the synthesized derivatives, compound 4h demonstrated the most potent cytotoxic effects (IC50 = 1.7 µg mL-1), comparable to the standard drug gefitinib (IC50 = 1.8 µg mL-1). The in vivo studies revealed a significant and dose-dependent decline in cellular proliferation and mammary gland tumor progression, along with histopathological abnormalities upon treatment with compound 4h. Interestingly, the quantitative gene expression analysis demonstrated a significant reduction in the DMBA-induced overexpression of BRCA1, BRCA2, and TP53 in the 4h-treated groups in a dose-dependent manner. Molecular docking studies showed favorable binding of the DPP derivatives within the EGFR active site, with compound 4h exhibiting strong affinity (binding energy = -9.2 kcal mol-1) and favorable predicted interactions in the ATP-binding region of EGFR. Computational ADMET profiling provided additional preliminary predictions of the pharmacokinetic and toxicity properties of compound 4h. The identified DPP derivatives demonstrated encouraging preliminary anticancer potential and may serve as promising lead molecules for future investigations.",
-        "relevance_score": 6
+        "journal": "Die Pharmazie",
+        "abstract": "Thyroid cancer (THCA) has recently become one of the most common endocrine malignancies worldwide. Dihydroartemisinin (DHA) exhibits well-documented antitumor activity, but its therapeutic potential in THCA remains largely unclear. The relative mRNA and protein expression levels of the apoptosis-related markers Bax, Bcl-2, and Caspase-3 in the human THCA cell line TPC-1 were evaluated by quantitative real-time reverse transcription polymerase chain reaction (qRT-PCR) and Western blotting. Potential active targets of DHA were obtained from the TCMSP, SwissTargetPrediction and SuperPred databases. The THCA-related targets were collected from TCGA, DisGeNET and GeneCards. Protein-protein interaction (PPI) network construction, Gene Ontology (GO), and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses were performed to predict key targets and pathways of DHA against THCA. DHA treatment significantly modulated the expression of apoptosis-related markers, including upregulation of Bax and Caspase-3 and downregulation of Bcl-2, suggesting that DHA may promote apoptosis in TPC-1 cells. A total of 230 potential targets were identified from the overlap between DHA- and THCA-related targets. Indeed, STAT3, PIK3R1, PIK3CA, PIK3CD, MAPK1, MAPK3, EGFR, HSP90AA1, ESR1, PTPN11 were identified as the top 10 hub genes. In total, 2214 biological processes, 118 cellular components, and 220 molecular functions were enriched. KEGG analysis indicated that DHA may suppress THCA primarily via the chemical carcinogenesis-receptor activation pathway. These findings suggest that DHA is a promising candidate for THCA treatment and warrant further investigation, including direct apoptosis assays and in vivo validation.",
+        "relevance_score": 4
     },
     {
-        "pmid": "42806904",
-        "title": "A bispecific EGFR × HER3 antibody-drug conjugate for later-line recurrent or metastatic nasopharyngeal carcinoma: insights from BL-B01D1-303.",
+        "pmid": "42810282",
+        "title": "Effects of Lithium Treatment on Renal Function in Bipolar Disorder: A Retrospective Cohort Study.",
         "authors": [
-            "Zhou H",
-            "Shen J",
-            "Liu J",
-            "Zhang L",
-            "Yang Y"
+            "İnanlı İ",
+            "Ayhan MG",
+            "Yıldız L",
+            "Mert M",
+            "Yıldız N"
         ],
-        "journal": "Cancer biology & medicine",
-        "abstract": "",
-        "relevance_score": 6
+        "journal": "Psychiatry research",
+        "abstract": "Lithium remains a cornerstone treatment for bipolar disorder, but concerns about its long-term renal safety persist. This study examined clinical and lithium-related predictors of eGFR decline in patients receiving long-term lithium therapy. In this retrospective cohort study, 636 patients with bipolar disorder treated with lithium for at least one year at a single psychiatric clinic (2010-2022) were evaluated. Estimated glomerular filtration rate (eGFR) was calculated at baseline, an intermediate time point, and the last follow-up using the CKD-EPI 2021 equation. The primary outcome was a decline of 25% or more in eGFR from baseline. Logistic regression, multiple linear regression, and linear mixed-effects models were used to identify independent predictors of eGFR decline. A ≥25% decline in eGFR occurred in 87 patients (13.7%). Older age (OR=1.05) and a history of supratherapeutic lithium levels (OR=1.66) were independently associated with decline; when mean lithium level was modeled continuously, higher levels were also associated with decline (OR=1.51 per 0.1 mmol/L). In the mixed-effects model, older age and female sex were associated with lower eGFR, whereas lithium treatment duration was not independently associated with renal outcomes in any model. The retrospective, single-center design limits causal inference and generalizability, and eGFR was estimated rather than directly measured. Renal function decline was associated with older age and higher lithium exposure (a history of supratherapeutic levels and higher mean levels), but not with treatment duration. Regular monitoring and prevention of supratherapeutic lithium exposure may help minimize renal risk during long-term lithium therapy.",
+        "relevance_score": 4
     },
     {
-        "pmid": "42806258",
-        "title": "ASO Author Reflections: Refining Postoperative Management for Stage IA EGFR-Mutated Lung Adenocarcinoma: Toward Risk-Adapted Adjuvant Therapy.",
+        "pmid": "42811306",
+        "title": "Targeted-release Budesonide (Nefecon) versus systemic glucocorticoids for IgA nephropathy: a placebo-anchored indirect treatment comparison of randomized controlled trials.",
         "authors": [
-            "Zhang Y",
-            "Liu Z",
-            "Yuan Q",
-            "Qiu Y",
-            "Chen Y",
-            "Zheng Q",
-            "Yan Y",
-            "Huang Y",
-            "Wang J",
-            "Wang H"
+            "Qing J",
+            "Wei W",
+            "Wu J"
         ],
-        "journal": "Annals of surgical oncology",
-        "abstract": "",
-        "relevance_score": 6
-    },
-    {
-        "pmid": "42808223",
-        "title": "Identification and validation of a chronic kidney disease prediction model after radical nephrectomy: a multicenter cohort retrospective study.",
-        "authors": [
-            "Wang X",
-            "Zhang T",
-            "Wang J",
-            "Yan Y",
-            "Wang H",
-            "Song K",
-            "Yu Y",
-            "Zhang Z",
-            "Zou B",
-            "Yao C"
-        ],
-        "journal": "Annals of medicine",
-        "abstract": "Long-term renal function is an important follow-up after radical nephrectomy for renal carcinoma. Predictive models can help identify patients at risk for chronic kidney disease (CKD) progression and enable early intervention. We retrospectively analyzed 649 patients who underwent radical nephrectomy at eight medical centers. The primary cohort from the Affiliated Hospital of Qingdao University comprised 329 patients, randomly divided into training sets (n = 229) and internal validation sets (n = 100) at a 7:3 ratio. An additional 320 patients from seven other centers constituted a multicenter external evaluation cohort. Five machine learning models were developed, including Logistic Regression (LR), Support Vector Machine (SVM), Random Forest (RF), Extreme Gradient Boosting (XGBoost), and Light Gradient Boosting Machine (LightGBM). Model performance was evaluated using the area under the receiver operating characteristic curve (AUC), confusion matrices, and calibration curves. 224 (34.51%) patients experienced postoperative CKD stage progression within three years. LightGBM achieved the highest discriminative performance among the five evaluated algorithms, with an AUC of 0.7508 (95% CI, 0.6399-0.8617) and an accuracy of 0.7200 in the internal validation set, and an AUC of 0.7549 (95% CI, 0.7022-0.8076) and an accuracy of 0.6813 in the external evaluation set. SHAP analysis identified preoperative eGFR, tumor size, post-to-preoperative serum creatinine ratio, preoperative serum creatinine, and age as the five most influential predictors. We developed and externally evaluated machine-learning models for predicting CKD stage progression after radical nephrectomy. Long-term decline in renal function is an important complication that requires urologists' attention and early prevention during follow-up.",
+        "journal": "BMC nephrology",
+        "abstract": "IgA nephropathy (IgAN) is a leading cause of end-stage renal disease, particularly in East Asia. Although systemic glucocorticoids are commonly used to delay progression, they are associated with significant adverse effects. Targeted-release budesonide (Nefecon) offers localized immunosuppression, targeting the gut-associated lymphoid tissue (Peyer's patches), with the aim of reducing systemic exposure. This study evaluates the efficacy and safety of Nefecon compared to systemic glucocorticoids through a placebo-anchored indirect treatment comparison. PubMed, Embase, and the Cochrane Library were systematically searched for randomized controlled trials evaluating Nefecon (16 mg/day), systemic glucocorticoids, or placebo in adults with IgAN. The primary efficacy outcome was annualized preservation of estimated glomerular filtration rate (eGFR), and secondary outcomes included annualized proteinuria reduction and serious infections. Placebo-anchored indirect treatment comparisons were performed using the Bucher difference-of-estimates method. This study was registered in PROSPERO (CRD420261357809). Three independent randomized controlled trials were included. Nefecon improved the annualized eGFR trajectory by 2.95 mL/min/1.73 m2 per year compared with placebo (95% CI, 1.68-4.58), whereas systemic methylprednisolone produced an improvement of 2.46 mL/min/1.73 m2 per year (95% CI, 0.94-3.99). The placebo-anchored indirect comparison showed no statistically significant difference in eGFR preservation between the two treatments (MD, 0.49 mL/min/1.73 m2 per year; 95% CI, -1.62 to 2.59; Pindirect = 0.651). For annualized absolute proteinuria reduction, the pooled estimate for Nefecon versus placebo was -0.26 g/g per year (95% CI, -0.34 to -0.18), compared with -0.69 g/g per year (95% CI, -0.97 to -0.41) for systemic methylprednisolone. The indirect comparison favored systemic methylprednisolone (MD, 0.43 g/g per year; 95% CI, 0.13-0.73; Pindirect = 0.004), although this analysis was exploratory because proteinuria measures and follow-up durations required harmonization. The indirect comparison of serious infections was not statistically significant (RR, 0.55; 95% CI, 0.04-7.16; Pindirect = 0.650). In this indirect comparison, both Nefecon and systemic glucocorticoids were associated with improved kidney outcomes versus placebo in IgAN. No statistically significant indirect difference was observed for eGFR preservation, while proteinuria and safety findings require cautious interpretation. Head-to-head trials are needed to further define their relative efficacy and safety.",
         "relevance_score": 3
     }
 ]
